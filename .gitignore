@@ -1,0 +1,20 @@
+# Node
+seatify/node_modules/
+seatify/dist/
+
+# Java/Gradle
+seatify-api/build/
+seatify-api/.gradle/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Docker volumes
+seatify_pgdata/
+
+# Env (keep .env since it's just localhost config)
+riserva-table-harmony/
+.claude/

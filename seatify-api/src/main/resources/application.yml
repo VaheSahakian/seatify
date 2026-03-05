@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: seatify-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/seatify
+    username: seatify
+    password: seatify_secret
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: false
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: c2VhdGlmeS1zZWNyZXQta2V5LWZvci1qd3QtdG9rZW4tZ2VuZXJhdGlvbi0yMDI2
+    access-token-expiration: 900000    # 15 minutes
+    refresh-token-expiration: 604800000 # 7 days

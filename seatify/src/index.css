@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FF385C;
+  --color-primary-light: #FF5A7E;
+  --color-primary-dark: #E0294A;
+  --color-secondary: #00A699;
+  --color-background: #FFFFFF;
+  --color-surface: #F7F7F7;
+  --color-surface-hover: #EBEBEB;
+  --color-text-primary: #222222;
+  --color-text-secondary: #717171;
+  --color-text-tertiary: #B0B0B0;
+  --color-border: #DDDDDD;
+  --color-border-light: #EBEBEB;
+  --color-success: #008A05;
+  --color-warning: #E07912;
+  --color-error: #C13515;
+  --color-star: #FF385C;
+  --color-available: #00A699;
+  --color-occupied: #C13515;
+  --color-reserved: #E07912;
+  --color-selected: #FF385C;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    color: var(--color-text-primary);
+    background-color: var(--color-background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  #root {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input, textarea, select, button {
+    font-family: inherit;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* Leaflet overrides - must be unlayered to override leaflet's own CSS */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

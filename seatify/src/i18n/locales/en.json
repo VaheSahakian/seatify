@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "reservations": "Reservations",
+    "orders": "Orders",
+    "profile": "Profile"
+  },
+  "home": {
+    "hero_title": "Find your perfect table",
+    "hero_subtitle": "Discover and book the best restaurants near you",
+    "search_placeholder": "Search restaurants, cuisines...",
+    "featured": "Featured venues",
+    "near_you": "Near you",
+    "categories": "Browse by cuisine",
+    "view_all": "View all"
+  },
+  "venue": {
+    "menu": "Menu",
+    "reviews": "Reviews",
+    "details": "Details",
+    "map": "Map",
+    "floor_plan": "Floor Plan",
+    "reserve": "Reserve a table",
+    "hours": "Opening hours",
+    "features": "Features",
+    "policies": "Policies",
+    "price_range": "Price range",
+    "reviews_count": "{{count}} reviews",
+    "seats": "{{count}} seats",
+    "per_person": "per person"
+  },
+  "reserve": {
+    "title": "Reserve a table",
+    "date": "Date",
+    "time": "Time",
+    "party_size": "Party size",
+    "guests": "guests",
+    "select_table": "Select a table",
+    "pre_order": "Pre-order (optional)",
+    "pre_order_desc": "Add items from the menu to have them ready when you arrive",
+    "continue": "Continue",
+    "skip": "Skip pre-order",
+    "step_datetime": "Date & Time",
+    "step_table": "Select Table",
+    "step_preorder": "Pre-order",
+    "step_checkout": "Checkout",
+    "available": "Available",
+    "occupied": "Occupied",
+    "reserved": "Reserved",
+    "selected": "Selected"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "order_summary": "Order summary",
+    "reservation_details": "Reservation details",
+    "pre_order_items": "Pre-order items",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "payment_method": "Payment method",
+    "card": "Credit/Debit Card",
+    "cash": "Pay at venue",
+    "confirm": "Confirm reservation",
+    "success": "Reservation confirmed!",
+    "success_desc": "Show this QR code at the venue",
+    "view_reservation": "View reservation",
+    "back_home": "Back to home"
+  },
+  "reservations": {
+    "title": "My reservations",
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "no_reservations": "No reservations yet",
+    "cancel": "Cancel reservation",
+    "cancel_confirm": "Are you sure you want to cancel?",
+    "modify": "Modify",
+    "view_qr": "View QR Code",
+    "party_size": "{{count}} guests",
+    "table": "Table {{label}}"
+  },
+  "orders": {
+    "title": "Order history",
+    "no_orders": "No orders yet",
+    "total": "Total",
+    "items": "{{count}} items"
+  },
+  "profile": {
+    "title": "Profile",
+    "edit": "Edit profile",
+    "loyalty_points": "Loyalty points",
+    "cashback": "Cashback",
+    "language": "Language",
+    "notifications": "Notifications",
+    "help": "Help & Support",
+    "logout": "Log out",
+    "settings": "Settings"
+  },
+  "auth": {
+    "welcome": "Welcome to Seatify",
+    "subtitle": "Sign in to book tables at the best restaurants",
+    "email": "Email address",
+    "phone": "Phone number",
+    "login": "Sign in",
+    "register": "Create account",
+    "or": "or",
+    "magic_link": "We'll send you a magic link",
+    "continue_email": "Continue with email",
+    "continue_phone": "Continue with phone",
+    "have_account": "Already have an account?",
+    "no_account": "Don't have an account?"
+  },
+  "cart": {
+    "items": "{{count}} items",
+    "view_cart": "View cart",
+    "add": "Add",
+    "added": "Added"
+  },
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "not_found": "Page not found",
+    "not_found_desc": "The page you're looking for doesn't exist",
+    "go_home": "Go home",
+    "filters": "Filters",
+    "clear_filters": "Clear filters",
+    "sort_by": "Sort by",
+    "rating": "Rating",
+    "price": "Price",
+    "distance": "Distance",
+    "apply": "Apply",
+    "close": "Close"
+  },
+  "floor_plan": {
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out",
+    "legend": "Legend"
+  }
+}
