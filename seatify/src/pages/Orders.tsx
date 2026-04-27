@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
-import { ShoppingBag, CalendarDays } from 'lucide-react'
+import { CalendarDays } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { EmptyState } from '@/components/common/EmptyState'
 import { useReservationStore } from '@/store/reservationStore'
 import { formatPrice } from '@/lib/utils'
 
@@ -18,10 +19,19 @@ export default function Orders() {
       <h1 className="text-2xl font-bold mb-6">{t('orders.title')}</h1>
 
       {orders.length === 0 ? (
-        <div className="text-center py-12">
-          <ShoppingBag size={48} className="text-text-tertiary mx-auto mb-3" />
-          <p className="text-text-secondary">{t('orders.no_orders')}</p>
-        </div>
+        <EmptyState
+          icon="🛒"
+          title="No orders yet"
+          description="Explore restaurants and place your first order"
+          action={
+            <a
+              href="/search"
+              className="inline-block px-5 py-2.5 bg-primary text-white rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
+            >
+              Explore Restaurants
+            </a>
+          }
+        />
       ) : (
         <div className="space-y-4">
           {orders.map((order, i) => (

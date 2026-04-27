@@ -11,8 +11,12 @@ import ReservationDetail from '@/pages/ReservationDetail'
 import Orders from '@/pages/Orders'
 import Profile from '@/pages/Profile'
 import Auth from '@/pages/Auth'
+import Favorites from '@/pages/Favorites'
+import Loyalty from '@/pages/Loyalty'
 import NotFound from '@/pages/NotFound'
 import { useAuthStore } from '@/store/authStore'
+import { useFavoriteStore } from '@/store/favoriteStore'
+import { useThemeStore } from '@/store/themeStore'
 
 import AdminLogin from '@/pages/admin/AdminLogin'
 import { AdminGuard } from '@/components/admin/AdminGuard'
@@ -27,10 +31,24 @@ import AdminReservations from '@/pages/admin/AdminReservations'
 
 export default function App() {
   const initialize = useAuthStore((s) => s.initialize)
+  const isAuthenticated = useAuthStore((s) => s.isAuthenticated)
+  const fetchFavorites = useFavoriteStore((s) => s.fetchFavorites)
+  const dark = useThemeStore((s) => s.dark)
 
   useEffect(() => {
     initialize()
   }, [initialize])
+
+  useEffect(() => {
+    if (isAuthenticated) {
+      fetchFavorites()
+    }
+  }, [isAuthenticated, fetchFavorites])
+
+  // Apply dark class on mount
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', dark)
+  }, [dark])
 
   return (
     <BrowserRouter>
@@ -39,6 +57,7 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<SearchPage />} />
+          <Route path="/favorites" element={<Favorites />} />
           <Route path="/venue/:slug" element={<VenueDetail />} />
           <Route path="/reserve/:venueId" element={<Reserve />} />
           <Route path="/checkout" element={<Checkout />} />
@@ -46,6 +65,7 @@ export default function App() {
           <Route path="/reservations/:id" element={<ReservationDetail />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/loyalty" element={<Loyalty />} />
           <Route path="/auth" element={<Auth />} />
         </Route>
 

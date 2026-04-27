@@ -57,7 +57,7 @@ export function SearchFilters() {
   }
 
   const hasActiveFilters =
-    filters.cuisine.length > 0 || filters.priceRange.length > 0 || filters.minRating > 0
+    filters.cuisine.length > 0 || filters.priceRange.length > 0 || filters.minRating > 0 || filters.openNow
 
   return (
     <>

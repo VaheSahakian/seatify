@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Star, MapPin, Phone, ArrowLeft } from 'lucide-react'
+import { Star, MapPin, Phone, ArrowLeft, ChevronUp, Heart } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Tabs } from '@/components/ui/tabs'
@@ -11,9 +11,14 @@ import { VenueDetails } from '@/components/venue/VenueDetails'
 import { FloorPlan } from '@/components/venue/FloorPlan'
 import { MapView } from '@/components/map/MapView'
 import { CartBar } from '@/components/cart/CartBar'
+import { PageTransition } from '@/components/layout/PageTransition'
 import { useVenueStore } from '@/store/venueStore'
 import { useReservationStore } from '@/store/reservationStore'
+import { useFavoriteStore } from '@/store/favoriteStore'
+import { useAuthStore } from '@/store/authStore'
+import { useRecentStore } from '@/store/recentStore'
 import type { Venue } from '@/types'
+import { intempoFloor2, floor2Walls } from '@/data/intempoFloor2'
 
 export default function VenueDetail() {
   const { slug } = useParams<{ slug: string }>()
@@ -21,8 +26,23 @@ export default function VenueDetail() {
   const { t, i18n } = useTranslation()
   const { fetchVenueBySlug, getVenueBySlug } = useVenueStore()
   const { setCurrentReservation } = useReservationStore()
+  const { isFavorite, toggleFavorite } = useFavoriteStore()
+  const { isAuthenticated } = useAuthStore()
+  const { addView } = useRecentStore()
   const lang = i18n.language
   const [loading, setLoading] = useState(true)
+  const [showScrollTop, setShowScrollTop] = useState(false)
+  const [selectedFloor, setSelectedFloor] = useState(1)
+
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 400)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  const scrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
 
   useEffect(() => {
     if (!slug) return
@@ -35,6 +55,20 @@ export default function VenueDetail() {
   }, [slug, fetchVenueBySlug, getVenueBySlug])
 
   const venue = getVenueBySlug(slug || '')
+
+  // Track recently viewed
+  useEffect(() => {
+    if (venue) {
+      addView({
+        id: venue.id,
+        slug: venue.slug,
+        name: venue.name,
+        image: venue.images[0] || '',
+        cuisine: venue.cuisine,
+        rating: venue.rating,
+      })
+    }
+  }, [venue?.id]) // eslint-disable-line react-hooks/exhaustive-deps
 
   if (loading) {
     return (
@@ -80,7 +114,26 @@ export default function VenueDetail() {
     {
       label: t('venue.floor_plan'),
       value: 'floorplan',
-      content: <FloorPlan floorPlan={venue.floorPlan} />,
+      content: (
+        <div>
+          {venue.slug === 'intempo' && (
+            <div className="flex gap-1 p-1 bg-gray-100 rounded-full w-fit mb-4">
+              <button
+                onClick={() => setSelectedFloor(1)}
+                className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer ${selectedFloor === 1 ? 'bg-primary text-white' : 'text-text-secondary hover:text-text-primary'}`}
+              >1st Floor</button>
+              <button
+                onClick={() => setSelectedFloor(2)}
+                className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer ${selectedFloor === 2 ? 'bg-primary text-white' : 'text-text-secondary hover:text-text-primary'}`}
+              >2nd Floor</button>
+            </div>
+          )}
+          <FloorPlan
+            floorPlan={venue.slug === 'intempo' && selectedFloor === 2 ? intempoFloor2 : venue.floorPlan}
+            walls={venue.slug === 'intempo' && selectedFloor === 2 ? floor2Walls : undefined}
+          />
+        </div>
+      ),
     },
     {
       label: t('venue.map'),
@@ -96,7 +149,10 @@ export default function VenueDetail() {
     },
   ]
 
+  const favorited = venue ? isFavorite(venue.id) : false
+
   return (
+    <PageTransition>
     <div>
       {/* Image gallery */}
       <div className="relative">
@@ -131,7 +187,24 @@ export default function VenueDetail() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <h1 className="text-2xl font-bold mb-2">{venue.name}</h1>
+          <div className="flex items-center gap-3 mb-2">
+            <h1 className="text-2xl font-bold">{venue.name}</h1>
+            {isAuthenticated && (
+              <button
+                onClick={() => toggleFavorite(venue.id)}
+                className="w-9 h-9 rounded-full border border-border-light flex items-center justify-center cursor-pointer hover:bg-surface transition-colors shrink-0"
+              >
+                <Heart
+                  size={18}
+                  className={
+                    favorited
+                      ? 'fill-red-500 text-red-500'
+                      : 'text-text-secondary'
+                  }
+                />
+              </button>
+            )}
+          </div>
           <div className="flex flex-wrap items-center gap-3 text-sm text-text-secondary mb-2">
             <div className="flex items-center gap-1">
               <Star size={16} className="fill-primary text-primary" />
@@ -168,6 +241,17 @@ export default function VenueDetail() {
       </div>
 
       <CartBar />
+
+      {/* Scroll to top button */}
+      {showScrollTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-24 right-4 z-50 w-10 h-10 bg-primary text-white rounded-full shadow-lg flex items-center justify-center hover:bg-primary/90 transition-all cursor-pointer animate-in fade-in"
+        >
+          <ChevronUp size={22} />
+        </button>
+      )}
     </div>
+    </PageTransition>
   )
 }

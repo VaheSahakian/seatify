@@ -1,0 +1,1202 @@
+{
+    "restaurant": {
+        "name": "Black Angus Burger Bar"
+    },
+    "menu": [
+        {
+            "category": {
+                "en": "Burgers",
+                "ru": "Бургеры",
+                "am": "Բուրգերներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Beef - Bacon & Cheddar Cheese (Standard)",
+                        "ru": "Говядина - Бекон и сыр Чеддер (Стандарт)",
+                        "am": "Տավարի միս - Բեկոն և Չեդեր պանիր (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Bacon & Cheddar Cheese (Mini)",
+                        "ru": "Говядина - Бекон и сыр Чеддер (Мини)",
+                        "am": "Տավարի միս - Բեկոն և Չեդեր պանիր (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Bacon & Cheddar Cheese (Standard)",
+                        "ru": "Ангус - Бекон и сыр Чеддер (Стандарт)",
+                        "am": "Անգուս - Բեկոն և Չեդեր պանիր (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Bacon & Cheddar Cheese (Mini)",
+                        "ru": "Ангус - Бекон и сыр Чеддер (Мини)",
+                        "am": "Անգուս - Բեկոն և Չեդեր պանիր (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "BBQ Grilled Chicken (Standard)",
+                        "ru": "Курица-гриль барбекю (Стандарт)",
+                        "am": "BBQ Գրիլ հավ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "BBQ Grilled Chicken (Mini)",
+                        "ru": "Курица-гриль барбекю (Мини)",
+                        "am": "BBQ Գրիլ հավ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2650,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Blue Cheese (Standard)",
+                        "ru": "Говядина - Блю Чиз (Стандарт)",
+                        "am": "Տավարի միս - Բլյու Չիզ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Blue Cheese (Mini)",
+                        "ru": "Говядина - Блю Чиз (Мини)",
+                        "am": "Տավարի միս - Բլյու Չիզ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Blue Cheese (Standard)",
+                        "ru": "Ангус - Блю Чиз (Стандарт)",
+                        "am": "Անգուս - Բլյու Չիզ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Blue Cheese (Mini)",
+                        "ru": "Ангус - Блю Чиз (Мини)",
+                        "am": "Անգուս - Բլյու Չիզ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2950,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic Cheese (Standard)",
+                        "ru": "Говядина - Классический сыр (Стандарт)",
+                        "am": "Տավարի միս - Կլասիկ պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 2850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic Cheese (Mini)",
+                        "ru": "Говядина - Классический сыр (Мини)",
+                        "am": "Տավարի միս - Կլասիկ պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic Cheese (Standard)",
+                        "ru": "Ангус - Классический сыр (Стандарт)",
+                        "am": "Անգուս - Կլասիկ պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic Cheese (Mini)",
+                        "ru": "Ангус - Классический сыр (Мини)",
+                        "am": "Անգուս - Կլասիկ պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic (Standard)",
+                        "ru": "Говядина - Классик (Стандарт)",
+                        "am": "Տավարի միս - Կլասիկ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic (Mini)",
+                        "ru": "Говядина - Классик (Мини)",
+                        "am": "Տավարի միս - Կլասիկ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic (Standard)",
+                        "ru": "Ангус - Классик (Стандарт)",
+                        "am": "Անգուս - Կլասիկ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic (Mini)",
+                        "ru": "Ангус - Классик (Мини)",
+                        "am": "Անգուս - Կլասիկ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2650,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic Double Cheese (Standard)",
+                        "ru": "Говядина - Классический двойной сыр (Стандарт)",
+                        "am": "Տավարի միս - Կլասիկ կրկնակի պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic Double Cheese (Mini)",
+                        "ru": "Говядина - Классический двойной сыр (Мини)",
+                        "am": "Տավարի միս - Կլասիկ կրկնակի պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic Double Cheese (Standard)",
+                        "ru": "Ангус - Классический двойной сыр (Стандарт)",
+                        "am": "Անգուս - Կլասիկ կրկնակի պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 4000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic Double Cheese (Mini)",
+                        "ru": "Ангус - Классический двойной сыр (Мини)",
+                        "am": "Անգուս - Կլասիկ կրկնակի պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic Double (Standard)",
+                        "ru": "Говядина - Классический двойной (Стандарт)",
+                        "am": "Տավարի միս - Կրկնակի կլասիկ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Classic Double (Mini)",
+                        "ru": "Говядина - Классический двойной (Мини)",
+                        "am": "Տավարի միս - Կրկնակի կլասիկ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic Double (Standard)",
+                        "ru": "Ангус - Классический двойной (Стандарт)",
+                        "am": "Անգուս - Կրկնակի կլասիկ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Classic Double (Mini)",
+                        "ru": "Ангус - Классический двойной (Мини)",
+                        "am": "Անգուս - Կրկնակի կլասիկ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - French Cheese (Standard)",
+                        "ru": "Говядина - Французский сыр (Стандарт)",
+                        "am": "Տավարի միս - Ֆրանսիական պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - French Cheese (Mini)",
+                        "ru": "Говядина - Французский сыр (Мини)",
+                        "am": "Տավարի միս - Ֆրանսիական պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - French Cheese (Standard)",
+                        "ru": "Ангус - Французский сыр (Стандарт)",
+                        "am": "Անգուս - Ֆրանսիական պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - French Cheese (Mini)",
+                        "ru": "Ангус - Французский сыр (Мини)",
+                        "am": "Անգուս - Ֆրանսիական պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled Chicken (Standard)",
+                        "ru": "Курица-гриль (Стандарт)",
+                        "am": "Գրիլ հավ (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 2950,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled Chicken (Mini)",
+                        "ru": "Курица-гриль (Мини)",
+                        "am": "Գրիլ հավ (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Italian Style (Standard)",
+                        "ru": "Говядина - По-итальянски (Стандарт)",
+                        "am": "Տավարի միս - Իտալական ոճով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Italian Style (Mini)",
+                        "ru": "Говядина - По-итальянски (Мини)",
+                        "am": "Տավարի միս - Իտալական ոճով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Italian Style (Standard)",
+                        "ru": "Ангус - По-итальянски (Стандарт)",
+                        "am": "Անգուս - Իտալական ոճով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Italian Style (Mini)",
+                        "ru": "Ангус - По-итальянски (Мини)",
+                        "am": "Անգուս - Իտալական ոճով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mignon Steak (Standard)",
+                        "ru": "Стейк Миньон (Стандарт)",
+                        "am": "Մինյոն Սթեյք (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mignon Steak (Mini)",
+                        "ru": "Стейк Миньон (Мини)",
+                        "am": "Մինյոն Սթեյք (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Mozzarella Soft (Standard)",
+                        "ru": "Говядина - Нежная моцарелла (Стандарт)",
+                        "am": "Տավարի միս - Փափուկ Մոցարելա (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Mozzarella Soft (Mini)",
+                        "ru": "Говядина - Нежная моцарелла (Мини)",
+                        "am": "Տավարի միս - Փափուկ Մոցարելա (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2650,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Mozzarella Soft (Standard)",
+                        "ru": "Ангус - Нежная моцарелла (Стандарт)",
+                        "am": "Անգուս - Փափուկ Մոցարելա (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Mozzarella Soft (Mini)",
+                        "ru": "Ангус - Нежная моцарелла (Мини)",
+                        "am": "Անգուս - Փափուկ Մոցարելա (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2950,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Pepper Cheese (Standard)",
+                        "ru": "Говядина - Перечный сыр (Стандарт)",
+                        "am": "Տավարի միս - Պղպեղային պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Pepper Cheese (Mini)",
+                        "ru": "Говядина - Перечный сыр (Мини)",
+                        "am": "Տավարի միս - Պղպեղային պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Pepper Cheese (Standard)",
+                        "ru": "Ангус - Перечный сыр (Стандарт)",
+                        "am": "Անգուս - Պղպեղային պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Pepper Cheese (Mini)",
+                        "ru": "Ангус - Перечный сыр (Мини)",
+                        "am": "Անգուս - Պղպեղային պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Swiss Cheese (Standard)",
+                        "ru": "Говядина - Швейцарский сыр (Стандарт)",
+                        "am": "Տավարի միս - Շվեյցարական պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Swiss Cheese (Mini)",
+                        "ru": "Говядина - Швейцарский сыр (Мини)",
+                        "am": "Տավարի միս - Շվեյցարական պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Swiss Cheese (Standard)",
+                        "ru": "Ангус - Швейцарский сыр (Стандарт)",
+                        "am": "Անգուս - Շվեյցարական պանրով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Swiss Cheese (Mini)",
+                        "ru": "Ангус - Швейцарский сыр (Мини)",
+                        "am": "Անգուս - Շվեյցարական պանրով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Veggie Burger",
+                        "ru": "Вегетарианский бургер",
+                        "am": "Բուսական Բուրգեր"
+                    },
+                    "description": null,
+                    "price": 2450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Creamy Avocado (Standard)",
+                        "ru": "Говядина - Сливочный авокадо (Стандарт)",
+                        "am": "Տավարի միս - Կրեմային Ավոկադո (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Creamy Avocado (Mini)",
+                        "ru": "Говядина - Сливочный авокадо (Мини)",
+                        "am": "Տավարի միս - Կրեմային Ավոկադո (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Creamy Avocado (Standard)",
+                        "ru": "Ангус - Сливочный авокадо (Стандарт)",
+                        "am": "Անգուս - Կրեմային Ավոկադո (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Creamy Avocado (Mini)",
+                        "ru": "Ангус - Сливочный авокадо (Мини)",
+                        "am": "Անգուս - Կրեմային Ավոկադո (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Tuscan Style (Standard)",
+                        "ru": "Говядина - По-тоскански (Стандарт)",
+                        "am": "Տավարի միս - Տոսկանական ոճով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3250,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Tuscan Style (Mini)",
+                        "ru": "Говядина - По-тоскански (Мини)",
+                        "am": "Տավարի միս - Տոսկանական ոճով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Tuscan Style (Standard)",
+                        "ru": "Ангус - По-тоскански (Стандарт)",
+                        "am": "Անգուս - Տոսկանական ոճով (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Tuscan Style (Mini)",
+                        "ru": "Ангус - По-тоскански (Мини)",
+                        "am": "Անգուս - Տոսկանական ոճով (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Fried Mozzarella (Standard)",
+                        "ru": "Говядина - Жареная моцарелла (Стандарт)",
+                        "am": "Տավարի միս - Տապակած Մոցարելա (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Fried Mozzarella (Mini)",
+                        "ru": "Говядина - Жареная моцарелла (Мини)",
+                        "am": "Տավարի միս - Տապակած Մոցարելա (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Fried Mozzarella (Standard)",
+                        "ru": "Ангус - Жареная моцарелла (Стандарт)",
+                        "am": "Անգուս - Տապակած Մոցարելա (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Fried Mozzarella (Mini)",
+                        "ru": "Ангус - Жареная моцарелла (Мини)",
+                        "am": "Անգուս - Տապակած Մոցարելա (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Mexicano (Standard)",
+                        "ru": "Говядина - Мексикано (Стандарт)",
+                        "am": "Տավարի միս - Մեքսիկանո (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef - Mexicano (Mini)",
+                        "ru": "Говядина - Мексикано (Мини)",
+                        "am": "Տավարի միս - Մեքսիկանո (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Mexicano (Standard)",
+                        "ru": "Ангус - Мексикано (Стандарт)",
+                        "am": "Անգուս - Մեքսիկանո (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Angus - Mexicano (Mini)",
+                        "ru": "Ангус - Мексикано (Мини)",
+                        "am": "Անգուս - Մեքսիկանո (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tzatziki Lamb (Standard)",
+                        "ru": "Ягненок Тцатцики (Стандарт)",
+                        "am": "Ձաձիկի Գառան միս (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tzatziki Lamb (Mini)",
+                        "ru": "Ягненок Тцатцики (Мини)",
+                        "am": "Ձաձիկի Գառան միս (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2800,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Pizza",
+                "ru": "Пицца",
+                "am": "Պիցցա"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "House Pizza (Large)",
+                        "ru": "Фирменная пицца (Большая)",
+                        "am": "Ֆիրմային Պիցցա (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 4450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "House Pizza (Small)",
+                        "ru": "Фирменная пицца (Маленькая)",
+                        "am": "Ֆիրմային Պիցցա (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Margherita (Large)",
+                        "ru": "Маргарита (Большая)",
+                        "am": "Մարգարիտա (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 3550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Margherita (Small)",
+                        "ru": "Маргарита (Маленькая)",
+                        "am": "Մարգարիտա (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Quattro Stagioni (Large)",
+                        "ru": "Четыре сезона (Большая)",
+                        "am": "Չորս եղանակ (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 4150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Quattro Stagioni (Small)",
+                        "ru": "Четыре сезона (Маленькая)",
+                        "am": "Չորս եղանակ (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza Bianca (Large)",
+                        "ru": "Пицца Бьянка (Большая)",
+                        "am": "Պիցցա Բիանկա (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza Bianca (Small)",
+                        "ru": "Пицца Бьянка (Маленькая)",
+                        "am": "Պիցցա Բիանկա (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Quattro Formaggi (Large)",
+                        "ru": "Четыре сыра (Большая)",
+                        "am": "Չորս պանիր (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 4350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Quattro Formaggi (Small)",
+                        "ru": "Четыре сыра (Маленькая)",
+                        "am": "Չորս պանիր (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Capricciosa (Big)",
+                        "ru": "Капричоза (Большая)",
+                        "am": "Կապրիչոզա (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 4250,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Capricciosa (Small)",
+                        "ru": "Капричоза (Маленькая)",
+                        "am": "Կապրիչոզա (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 3250,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pepperoni (Large)",
+                        "ru": "Пепперони (Большая)",
+                        "am": "Պեպերոնի (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 4250,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pepperoni (Small)",
+                        "ru": "Пепперони (Маленькая)",
+                        "am": "Պեպերոնի (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Arugula and Prosciutto (Large)",
+                        "ru": "Руккола и прошутто (Большая)",
+                        "am": "Ռուկոլա և պրոշուտո (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 4450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Arugula and Prosciutto (Small)",
+                        "ru": "Руккола и прошутто (Маленькая)",
+                        "am": "Ռուկոլա և պրոշուտո (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Veggie Pizza (Large)",
+                        "ru": "Вегетарианская пицца (Большая)",
+                        "am": "Բուսական Պիցցա (Մեծ)"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Veggie Pizza (Small)",
+                        "ru": "Вегетарианская пицца (Маленькая)",
+                        "am": "Բուսական Պիցցա (Փոքր)"
+                    },
+                    "description": null,
+                    "price": 2850,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Salads",
+                "ru": "Салаты",
+                "am": "Աղցաններ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Black Angus Salad (Standard)",
+                        "ru": "Салат Блэк Ангус (Стандарт)",
+                        "am": "Բլեք Անգուս Աղցան (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3650,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Black Angus Salad (Mini)",
+                        "ru": "Салат Блэк Ангус (Мини)",
+                        "am": "Բլեք Անգուս Աղցան (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Fresh Garden Salad (Standard)",
+                        "ru": "Свежий садовый салат (Стандарт)",
+                        "am": "Թարմ Այգու Աղցան (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Fresh Garden Salad (Mini)",
+                        "ru": "Свежий садовый салат (Мини)",
+                        "am": "Թարմ Այգու Աղցան (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Greek Salad (Standard)",
+                        "ru": "Классический греческий салат (Стандарт)",
+                        "am": "Կլասիկ Հունական Աղցան (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Greek Salad (Mini)",
+                        "ru": "Классический греческий салат (Мини)",
+                        "am": "Կլասիկ Հունական Աղցան (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Caesar Salad (Standard)",
+                        "ru": "Салат Цезарь (Стандарт)",
+                        "am": "Կեսար Աղցան (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Caesar Salad (Mini)",
+                        "ru": "Салат Цезарь (Мини)",
+                        "am": "Կեսար Աղցան (Մինի)"
+                    },
+                    "description": null,
+                    "price": 3050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled Veggie Salad (Standard)",
+                        "ru": "Салат из овощей на гриле (Стандарт)",
+                        "am": "Գրիլ Բանջարեղենային Աղցան (Ստանդարտ)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled Veggie Salad (Mini)",
+                        "ru": "Салат из овощей на гриле (Мини)",
+                        "am": "Գրիլ Բանջարեղենային Աղցան (Մինի)"
+                    },
+                    "description": null,
+                    "price": 2950,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Side Dishes",
+                "ru": "Гарниры",
+                "am": "Կողմնակի ճաշատեսակներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "French Fries",
+                        "ru": "Картофель фри",
+                        "am": "Ֆրի"
+                    },
+                    "description": null,
+                    "price": 1150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "French Fries with Cheddar",
+                        "ru": "Картофель фри с чеддером",
+                        "am": "Ֆրի Չեդերով"
+                    },
+                    "description": null,
+                    "price": 1550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "French Fries with Mozzarella",
+                        "ru": "Картофель фри с моцареллой",
+                        "am": "Ֆրի Մոցարելայով"
+                    },
+                    "description": null,
+                    "price": 1550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mozzarella Sticks",
+                        "ru": "Моцарелла палочки",
+                        "am": "Մոցարելա ցուպիկներ"
+                    },
+                    "description": null,
+                    "price": 2550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Potato Wedges",
+                        "ru": "Картофельные дольки",
+                        "am": "Գյուղական կարտոֆիլ"
+                    },
+                    "description": null,
+                    "price": 1250,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "BBQ Chicken Wings (9-10pcs)",
+                        "ru": "Куриные крылышки барбекю (9-10 шт)",
+                        "am": "BBQ Հավի թևիկներ (9-10 կտոր)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "BBQ Chicken Wings (5-7pcs)",
+                        "ru": "Куриные крылышки барбекю (5-7 шт)",
+                        "am": "BBQ Հավի թևիկներ (5-7 կտոր)"
+                    },
+                    "description": null,
+                    "price": 2350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled Oregano Wings (9-10pcs)",
+                        "ru": "Крылышки гриль с орегано (9-10 шт)",
+                        "am": "Գրիլ թևիկներ օրեգանոյով (9-10 կտոր)"
+                    },
+                    "description": null,
+                    "price": 3350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled Oregano Wings (5-7pcs)",
+                        "ru": "Крылышки гриль с орегано (5-7 шт)",
+                        "am": "Գրիլ թևիկներ օրեգանոյով (5-7 կտոր)"
+                    },
+                    "description": null,
+                    "price": 2350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crispy Onion Rings",
+                        "ru": "Хрустящие луковые кольца",
+                        "am": "Սոխի օղակներ"
+                    },
+                    "description": null,
+                    "price": 1450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Stuffed Potatoes (Bacon/Cheddar)",
+                        "ru": "Фаршированный картофель (Бекон/Чеддер)",
+                        "am": "Լցոնված կարտոֆիլ (Բեկոն/Չեդեր)"
+                    },
+                    "description": null,
+                    "price": 2350,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Baked Potato (Mushroom/Cheddar)",
+                        "ru": "Печеный картофель (Грибы/Чеддер)",
+                        "am": "Թխված կարտոֆիլ (Սունկ/Չեդեր)"
+                    },
+                    "description": null,
+                    "price": 2150,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Garlic Bread",
+                        "ru": "Чесночный хлеб",
+                        "am": "Սխտորով հաց"
+                    },
+                    "description": null,
+                    "price": 2350,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Drinks",
+                "ru": "Напитки",
+                "am": "Ըմպելիքներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Soft Drinks (0.5l)",
+                        "ru": "Безалкогольные напитки (0.5л)",
+                        "am": "Զովացուցիչ ըմպելիքներ (0.5լ)"
+                    },
+                    "description": null,
+                    "price": 600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lemonades",
+                        "ru": "Лимонады",
+                        "am": "Լիմոնադներ"
+                    },
+                    "description": null,
+                    "price": 2050,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Milkshakes",
+                        "ru": "Молочные коктейли",
+                        "am": "Միլքշեյքեր"
+                    },
+                    "description": null,
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Smoothies/Yogurt Drinks",
+                        "ru": "Смузи/Йогуртовые напитки",
+                        "am": "Սմուզիներ/Յոգուրտային ըմպելիքներ"
+                    },
+                    "description": null,
+                    "price": 1600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Imported Beer",
+                        "ru": "Импортное пиво",
+                        "am": "Ներմուծված գարեջուր"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                }
+            ]
+        }
+    ]
+}

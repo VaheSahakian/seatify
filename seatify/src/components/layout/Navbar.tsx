@@ -1,10 +1,13 @@
 import { Link, useNavigate } from 'react-router-dom'
-import { Search, User } from 'lucide-react'
+import { Search, User, Sun, Moon } from 'lucide-react'
 import { useAuthStore } from '@/store/authStore'
+import { useThemeStore } from '@/store/themeStore'
 import { LanguageSwitcher } from '@/components/common/LanguageSwitcher'
+import { UserAvatar } from '@/components/common/UserAvatar'
 
 export function Navbar() {
   const { isAuthenticated, user } = useAuthStore()
+  const { dark, toggle: toggleTheme } = useThemeStore()
   const navigate = useNavigate()
 
   return (
@@ -27,15 +30,23 @@ export function Navbar() {
             <Search size={20} className="text-text-secondary" />
           </button>
 
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-full hover:bg-surface transition-colors cursor-pointer"
+            aria-label="Toggle dark mode"
+          >
+            {dark ? (
+              <Sun size={20} className="text-text-secondary" />
+            ) : (
+              <Moon size={20} className="text-text-secondary" />
+            )}
+          </button>
+
           <LanguageSwitcher />
 
           {isAuthenticated ? (
             <Link to="/profile" className="flex items-center gap-2">
-              <img
-                src={user?.avatar}
-                alt={user?.name}
-                className="w-8 h-8 rounded-full object-cover border border-border-light"
-              />
+              <UserAvatar name={user?.name} avatar={user?.avatar} size="sm" />
             </Link>
           ) : (
             <Link

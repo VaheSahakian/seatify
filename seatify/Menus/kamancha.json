@@ -1,0 +1,1241 @@
+{
+    "restaurant": {
+        "name": "Kamancha Restaurant"
+    },
+    "menu": [
+        {
+            "category": {
+                "en": "Special Offers",
+                "ru": "Специальные предложения",
+                "am": "Հատուկ առաջարկներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Kamancha assorted",
+                        "ru": "Ассорти Каманча",
+                        "am": "Քամանչա տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 28500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Assorted BBQ (big)",
+                        "ru": "Ассорти барбекю (большое)",
+                        "am": "Խորովածի տեսականի (մեծ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 45500,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Breakfast",
+                "ru": "Завтрак",
+                "am": "Նախաճաշ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Strained matsoni with honey and walnuts",
+                        "ru": "Цежец мацун с медом и грецкими орехами",
+                        "am": "Քամած մածուն մեղրով և ընկույզով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1300,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Appetizers",
+                "ru": "Закуски",
+                "am": "Նախուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Armenian cheese plate",
+                        "ru": "Армянская сырная тарелка",
+                        "am": "Հայկական պանրի տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Vegetables assortment",
+                        "ru": "Овощное ассорти",
+                        "am": "Բանջարեղենի տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lemon and olives",
+                        "ru": "Лимон и оливки",
+                        "am": "Լիմոն և ձիթապտուղ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Homemade pickles assorted",
+                        "ru": "Ассорти домашних солений",
+                        "am": "Տնական թթվի տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Ghavurma",
+                        "ru": "Кавурма",
+                        "am": "Ղավուրմա"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Assortment of greens",
+                        "ru": "Ассорти зелени",
+                        "am": "Կանաչու տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Fish assorted",
+                        "ru": "Рыбное ассорти",
+                        "am": "Ձկան տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Eggplant rolls",
+                        "ru": "Рулетики из баклажанов",
+                        "am": "Սմբուկով ռուլետներ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Strained yogurt",
+                        "ru": "Цежец мацун",
+                        "am": "Քամած մածուն"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Rezhan",
+                        "ru": "Режан",
+                        "am": "Ռեժան"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tandoor bread and lavash",
+                        "ru": "Тандырный хлеб и лаваш",
+                        "am": "Թոնրի հաց և լավաշ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 550,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "European cheese assortment",
+                        "ru": "Ассорти европейских сыров",
+                        "am": "Եվրոպական պանիրների տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 6700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crackers with garlic",
+                        "ru": "Сухарики с чесноком",
+                        "am": "Չորահաց սխտորով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Vegetables with lemon",
+                        "ru": "Овощи с лимоном",
+                        "am": "Բանջարեղեն լիմոնով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Puree Maro",
+                        "ru": "Пюре Маро",
+                        "am": "Մարո պյուրե"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Hummus",
+                        "ru": "Хумус",
+                        "am": "Հումուս"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pghpeghani",
+                        "ru": "Пхпегани",
+                        "am": "Պղպեղանի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Assortment of Armenian canned goods",
+                        "ru": "Ассорти армянских консервов",
+                        "am": "Հայկական պահածոների տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2500,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Salads",
+                "ru": "Салаты",
+                "am": "Աղցաններ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Beef, walnut and eggplant salad",
+                        "ru": "Салат с говядиной, грецким орехом и баклажанами",
+                        "am": "Աղցան տավարի մսով, ընկույզով և սմբուկով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tarragon, horats cheese and grape salad",
+                        "ru": "Салат с тархуном, сыром хорац и виноградом",
+                        "am": "Աղցան թարխունով, հորած պանրով և խաղողով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken breast, quinoa and vegetable salad",
+                        "ru": "Салат с куриной грудкой, киноа и овощами",
+                        "am": "Աղցան հավի կրծքամսով, կինոայով և բանջարեղենով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Caesar salad",
+                        "ru": "Салат Цезарь",
+                        "am": "Կեսար աղցան"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Summer salad",
+                        "ru": "Летний салат",
+                        "am": "Ամառային աղցան"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tabbouleh",
+                        "ru": "Табуле",
+                        "am": "Թաբուլե"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Strained yogurt, cucumber and walnuts salad",
+                        "ru": "Салат из цежец мацуна, огурцов и грецких орехов",
+                        "am": "Աղցան քամած մածունով, վարունգով և ընկույզով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Sorrel, tomato and strained yogurt salad",
+                        "ru": "Салат со щавелем, помидорами и цежец мацуном",
+                        "am": "Աղցան ավելուկով, լոլիկով և քամած մածունով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Greek salad",
+                        "ru": "Греческий салат",
+                        "am": "Հունական աղցան"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Arti salad",
+                        "ru": "Арти салат",
+                        "am": "Արտի աղցան"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3000,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Main Dishes",
+                "ru": "Основные блюда",
+                "am": "Տաք ուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Nazeli",
+                        "ru": "Назели",
+                        "am": "Նազելի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Syuniki Khashntur",
+                        "ru": "Сюникский Хашнтур",
+                        "am": "Սյունիքի Խաշնտուր"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 8700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Assorted tolma",
+                        "ru": "Ассорти толмы",
+                        "am": "Տոլմայի տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 7500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Stuffed Pork Loin Yeghegnadzor",
+                        "ru": "Фаршированная свиная корейка Ехегнадзор",
+                        "am": "Լցոնված խոզի չալաղաջ Եղեգնաձոր"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 6400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pide (Two meat / Lahmajo / Cheese)",
+                        "ru": "Пиде (Два мяса / Ламаджо / Сыр)",
+                        "am": "Պիդե (Երկու միս / Լահմաջո / Պանիր)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Summer tolma",
+                        "ru": "Летняя толма",
+                        "am": "Ամառային տոլմա"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tolma (Grape leaves / Cabbage)",
+                        "ru": "Толма (Виноградные листья / Капуста)",
+                        "am": "Տոլմա (Խաղողի թերթ / Կաղամբ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Garni Yarakh",
+                        "ru": "Гарни Ярах",
+                        "am": "Գառնի Յարախ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Arishta with ghavurma",
+                        "ru": "Аришта с кавурмой",
+                        "am": "Արիշտա ղավուրմայով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tjvjik",
+                        "ru": "Тжвжик",
+                        "am": "Տժվժիկ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef khashlama",
+                        "ru": "Хашлама из говядины",
+                        "am": "Տավարի խաշլամա"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lamb khashlama",
+                        "ru": "Хашлама из ягненка",
+                        "am": "Գառան խաշլամա"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lamb shoulder in the stove",
+                        "ru": "Лопатка ягненка в печи",
+                        "am": "Գառան թիակ վառարանում"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 12900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Boiled trout",
+                        "ru": "Вареная форель",
+                        "am": "Խաշած իշխան"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Imeretian khachapuri",
+                        "ru": "Имеретинский хачапури",
+                        "am": "Իմերեթական խաչապուրի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Kalagyosh",
+                        "ru": "Калагёш",
+                        "am": "Քալագյոշ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Yerevan roast Areni",
+                        "ru": "Ереванское жаркое Арени",
+                        "am": "Երևանյան տապակա Արենի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 7500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tolma with lamb",
+                        "ru": "Толма с ягненком",
+                        "am": "Տոլմա գառան մսով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Boiled whitefish",
+                        "ru": "Вареный сиг",
+                        "am": "Խաշած սիգ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pide Pepperoni",
+                        "ru": "Пиде Пепперони",
+                        "am": "Պիդե Պեպերոնի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lamb Pide",
+                        "ru": "Пиде с ягненком",
+                        "am": "Պիդե գառան մսով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Khurjin",
+                        "ru": "Хурджин",
+                        "am": "Խուրջին"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Kufta with cream sauce",
+                        "ru": "Кюфта в сливочном соусе",
+                        "am": "Քյուֆթա սերուցքային սոուսով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Sausage set",
+                        "ru": "Набор сосисок",
+                        "am": "Նրբերշիկի հավաքածու"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 7900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pork shawarma with dough",
+                        "ru": "Шаурма из свинины в тесте",
+                        "am": "Խոզի շաուրմա խմորով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tapaka Armavir With beef fillet",
+                        "ru": "Тапака Армавир с говяжьим филе",
+                        "am": "Տապակա Արմավիր տավարի ֆիլեով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 6900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tapaka Armavir With lamb loin",
+                        "ru": "Тапака Армавир с бараньей корейкой",
+                        "am": "Տապակա Արմավիր գառան չալաղաջով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 7500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tapaka Armavir With trout fillet",
+                        "ru": "Тапака Армавир с филе форели",
+                        "am": "Տապակա Արմավիր իշխանի ֆիլեով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 6100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tapaka Armavir With pork bacon",
+                        "ru": "Тапака Армавир со свиным беконом",
+                        "am": "Տապակա Արմավիր խոզի բեկոնով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 5800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tapaka Armavir With chicken fillet",
+                        "ru": "Тапака Армавир с куриным филе",
+                        "am": "Տապակա Արմավիր հավի ֆիլեով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tapaka Armavir With vegetables",
+                        "ru": "Тапака Армавир с овощами",
+                        "am": "Տապակա Արմավիր բանջարեղենով"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 2800,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Grill / BBQ",
+                "ru": "Гриль / Барбекю",
+                "am": "Խորոված և Քյաբաբ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Sturgeon barbecue",
+                        "ru": "Шашлык из осетрины",
+                        "am": "Թառափի խորոված"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 10900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef fillet BBQ",
+                        "ru": "Шашлык из говяжьего филе",
+                        "am": "Տավարի ֆիլեի խորոված"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lamb loin BBQ",
+                        "ru": "Шашлык из бараньей корейки",
+                        "am": "Գառան չալաղաջի խորոված"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Trout barbecue",
+                        "ru": "Шашлык из форели",
+                        "am": "Իշխանի խորոված"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pork loin BBQ",
+                        "ru": "Шашлык из свиной корейки",
+                        "am": "Խոզի չալաղաջի խորոված"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 3800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Small assortment of barbecue",
+                        "ru": "Малое ассорти шашлыка",
+                        "am": "Խորովածի փոքր տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 16200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lamb kebab",
+                        "ru": "Кебаб из ягненка",
+                        "am": "Գառան քյաբաբ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef kebab",
+                        "ru": "Кебаб из говядины",
+                        "am": "Տավարի քյաբաբ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken kebab",
+                        "ru": "Кебаб из курицы",
+                        "am": "Հավի քյաբաբ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Potato BBQ",
+                        "ru": "Картофель на гриле",
+                        "am": "Կարտոֆիլի խորոված"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Onion / Hot pepper BBQ",
+                        "ru": "Лук / Острый перец на гриле",
+                        "am": "Սոխ / Կծու պղպեղ խորոված"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 600,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Desserts",
+                "ru": "Десерты",
+                "am": "Աղանդեր"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Ghapama (big)",
+                        "ru": "Хапама (большая)",
+                        "am": "Ղափամա (մեծ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 13500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Sweet «Kamancha»",
+                        "ru": "Сладкая «Каманча»",
+                        "am": "Քաղցր «Քամանչա»"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 12000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Assorted fruit",
+                        "ru": "Фруктовое ассорти",
+                        "am": "Մրգի տեսականի"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 4500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cheesecake",
+                        "ru": "Чизкейк",
+                        "am": "Չիզքեյք"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pakhlava / Gata / Bird's milk",
+                        "ru": "Пахлава / Гата / Птичье молоко",
+                        "am": "Փախլավա / Գաթա / Թռչնի կաթ"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1700,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Drinks",
+                "ru": "Напитки",
+                "am": "Ըմպելիքներ և Սոուսներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Homemade compote (1l)",
+                        "ru": "Домашний компот (1л)",
+                        "am": "Տնական կոմպոտ (1լ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1250,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tan (1l)",
+                        "ru": "Тан (1л)",
+                        "am": "Թան (1լ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beer (Kilikia/Gyumri 0.33l)",
+                        "ru": "Пиво (Киликия/Гюмри 0.33л)",
+                        "am": "Գարեջուր (Կիլիկիա/Գյումրի 0.33լ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 1100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Soft drinks (Coke/Fanta/Water 0.5l)",
+                        "ru": "Безалкогольные напитки (Кока-кола/Фанта/Вода 0.5л)",
+                        "am": "Զովացուցիչ ըմպելիքներ (Կոկա-կոլա/Ֆանտա/Ջուր 0.5լ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 450,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Sauces (Garlic, Ghars, Hot, Tkemali, Narsharab)",
+                        "ru": "Соусы (Чесночный, Карс, Острый, Ткемали, Наршараб)",
+                        "am": "Սոուսներ (Սխտորի, Ղարսի, Կծու, Տղեմալի, Նարշարաբ)"
+                    },
+                    "description": {
+                        "en": null,
+                        "ru": null,
+                        "am": null
+                    },
+                    "price": 500,
+                    "currency": "AMD"
+                }
+            ]
+        }
+    ]
+}

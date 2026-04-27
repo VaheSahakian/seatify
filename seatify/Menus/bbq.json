@@ -1,0 +1,422 @@
+{
+"restaurant": {
+"name": "Bar B.Q.",
+"location": null,
+"source": "Instagram Story"
+},
+"menu": [
+{
+"category": {
+"en": "Grill / BBQ",
+"ru": "Гриль / Барбекю",
+"am": "Գրիլ / Բարբեքյու"
+},
+"items": [
+{
+"name": {
+"en": "Famous Angus Kebab",
+"ru": "Знаменитый ангус кебаб",
+"am": "Ֆեյմս Անգուս Քյաբաբ"
+},
+"description": null,
+"price": 1550,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "House Chicken Kebab",
+"ru": "Фирменный куриный кебаб",
+"am": "Տնական հավի քյաբաբ"
+},
+"description": null,
+"price": 1200,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Poultry Kebab",
+"ru": "Кебаб из индейки",
+"am": "Հնդկահավի քյաբաբ"
+},
+"description": null,
+"price": 1300,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Falafel Kebab",
+"ru": "Фалафель кебаб",
+"am": "Ֆալաֆել քյաբաբ"
+},
+"description": null,
+"price": 1200,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Chicken BBQ",
+"ru": "BBQ из курицы",
+"am": "Հավի BBQ"
+},
+"description": null,
+"price": 1300,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Pork BBQ",
+"ru": "BBQ из свинины",
+"am": "Խոզի BBQ"
+},
+"description": null,
+"price": 1450,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Poultry BBQ",
+"ru": "BBQ из индейки",
+"am": "Հնդկահավի BBQ"
+},
+"description": null,
+"price": 1300,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Chicken Wings BBQ",
+"ru": "BBQ из куриных крылышек",
+"am": "Հավի թևիկների BBQ"
+},
+"description": null,
+"price": 1950,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Sweet Corn BBQ",
+"ru": "BBQ сладкая кукуруза",
+"am": "Եգիպտացորենի BBQ"
+},
+"description": null,
+"price": 700,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Potato BBQ",
+"ru": "BBQ из картофеля",
+"am": "Կարտոֆիլի BBQ"
+},
+"description": null,
+"price": 700,
+"currency": "AMD"
+}
+]
+},
+{
+"category": {
+"en": "Shawarma",
+"ru": "Шаурма",
+"am": "Շաուրմա"
+},
+"items": [
+{
+"name": {
+"en": "Chicken with Bread",
+"ru": "Из курицы в хлебе",
+"am": "Հավի հացով"
+},
+"description": null,
+"price": 1300,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Chicken with Pita",
+"ru": "Из курицы в пите",
+"am": "Հավի լոշիկով"
+},
+"description": null,
+"price": 1500,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Chicken with Lavash",
+"ru": "Из курицы в лаваше",
+"am": "Հավի լավաշով"
+},
+"description": null,
+"price": 1500,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Pork with Bread",
+"ru": "Из свинины в хлебе",
+"am": "Խոզի հացով"
+},
+"description": null,
+"price": 1400,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Pork with Pita",
+"ru": "Из свинины в пите",
+"am": "Խոզի լոշիկով"
+},
+"description": null,
+"price": 1500,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Pork with Lavash",
+"ru": "Из свинины в лаваше",
+"am": "Խոզի լավաշով"
+},
+"description": null,
+"price": 1600,
+"currency": "AMD"
+}
+]
+},
+{
+"category": {
+"en": "Lahmajo",
+"ru": "Ламаджо",
+"am": "Լահմաջո"
+},
+"items": [
+{
+"name": {
+"en": "Angus",
+"ru": "Ангус",
+"am": "Անգուս"
+},
+"description": null,
+"price": 1000,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Angus Cheese",
+"ru": "Ангус сыр",
+"am": "Անգուս պանիր"
+},
+"description": null,
+"price": 1200,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Angus Maria",
+"ru": "Ангус Мария",
+"am": "Անգուս Մարիա"
+},
+"description": null,
+"price": 1600,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Cheese",
+"ru": "Сыр",
+"am": "Պանիր"
+},
+"description": null,
+"price": 800,
+"currency": "AMD"
+}
+]
+},
+{
+"category": {
+"en": "Khachapuri on Grill",
+"ru": "Хачапури на мангале",
+"am": "Խաչապուրի կրակի վրա"
+},
+"items": [
+{
+"name": {
+"en": "Cheese",
+"ru": "С сыром",
+"am": "Պանրով"
+},
+"description": null,
+"price": 1200,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Cheese and Ham",
+"ru": "С сыром и ветчиной",
+"am": "Պանրով և խոզապուխտով"
+},
+"description": null,
+"price": 1400,
+"currency": "AMD"
+}
+]
+},
+{
+"category": {
+"en": "Pideh",
+"ru": "Пиде",
+"am": "Պիդե"
+},
+"items": [
+{
+"name": {
+"en": "Adjarian",
+"ru": "Аджарский",
+"am": "Աջարական"
+},
+"description": null,
+"price": 1400,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Chicken Veggie",
+"ru": "Курица с овощами",
+"am": "Հավի"
+},
+"description": null,
+"price": 1600,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Pork Baharat",
+"ru": "Свинина бахарат",
+"am": "Խոզի"
+},
+"description": null,
+"price": 1800,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Pepperoni",
+"ru": "Пепперони",
+"am": "Պեպերոնի / Կծու"
+},
+"description": null,
+"price": 1400,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Ham & Sausage",
+"ru": "Ветчина с сосиской",
+"am": "Նրբերշիկ / Խոզապուխտ"
+},
+"description": null,
+"price": 1400,
+"currency": "AMD"
+}
+]
+},
+{
+"category": {
+"en": "Salads",
+"ru": "Салаты",
+"am": "Աղցաններ"
+},
+"items": [
+{
+"name": {
+"en": "Tabbouleh",
+"ru": "Табуле",
+"am": "Թաբուլե"
+},
+"description": null,
+"price": 900,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Mutabal",
+"ru": "Мутабал",
+"am": "Մութաբալ"
+},
+"description": null,
+"price": 950,
+"currency": "AMD"
+}
+]
+},
+{
+"category": {
+"en": "Drinks",
+"ru": "Напитки",
+"am": "Ըմպելիքներ"
+},
+"items": [
+{
+"name": {
+"en": "Still Water",
+"ru": "Вода без газа",
+"am": "Ջուր չգազավորված"
+},
+"description": null,
+"price": 400,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Sparkling Water",
+"ru": "Вода с газом",
+"am": "Ջուր գազավորված"
+},
+"description": null,
+"price": 400,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Soft Drinks",
+"ru": "Освежающие напитки",
+"am": "Զովացուցիչ ըմպելիքներ"
+},
+"description": null,
+"price": 450,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Tan / Lime / Mint",
+"ru": "Тан / Лайм / Минт",
+"am": "Թան / Լայմ / Նանա"
+},
+"description": null,
+"price": 600,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Draft Beer",
+"ru": "Разливное пиво",
+"am": "Դրաֆտ գարեջուր"
+},
+"description": null,
+"price": 1200,
+"currency": "AMD"
+},
+{
+"name": {
+"en": "Tomato / Oregano / Garlic",
+"ru": "Томат / Орегано / Чеснок",
+"am": "Լոլիկ / Օրեգանո / Սխտոր"
+},
+"description": null,
+"price": 600,
+"currency": "AMD"
+}
+]
+}
+]
+}

@@ -1,0 +1,738 @@
+{
+    "restaurant": {
+        "name": "Espress It"
+    },
+    "menu": [
+        {
+            "category": {
+                "en": "Breakfast Plates",
+                "ru": "Тарелки для завтрака",
+                "am": "Նախաճաշի ափսե"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "American Breakfast",
+                        "ru": "Американский завтрак",
+                        "am": "Ամերիկյան նախաճաշ"
+                    },
+                    "description": null,
+                    "price": 2500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "English Breakfast",
+                        "ru": "Английский завтрак",
+                        "am": "Անգլիական նախաճաշ"
+                    },
+                    "description": null,
+                    "price": 3200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "French Breakfast",
+                        "ru": "Французский завтрак",
+                        "am": "Ֆրանսիական նախաճաշ"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Croissant with Cherry Jam",
+                        "ru": "Круассан с вишневым джемом",
+                        "am": "Կրուասան բալի ջեմով"
+                    },
+                    "description": null,
+                    "price": 1300,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Egg Dishes",
+                "ru": "Блюда из яиц",
+                "am": "Նախաճաշ ձվով"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Scramble with Cheese",
+                        "ru": "Скрамбл с сыром",
+                        "am": "Սքրամբլ պանրով"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Scramble with Bacon",
+                        "ru": "Скрамбл с беконом",
+                        "am": "Սքրամբլ բեկոնով"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Scramble with Salmon",
+                        "ru": "Скрамбл с лососем",
+                        "am": "Սքրամբլ սաղմոնով"
+                    },
+                    "description": {
+                        "en": "300g, Hokkaido bread, avocado",
+                        "ru": "300г, хлеб Хоккайдо, авокадо",
+                        "am": "300գ, Հոկայդո հաց, ավոկադո"
+                    },
+                    "price": 3500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Omelet with Cheese",
+                        "ru": "Омлет с сыром",
+                        "am": "Օմլետ պանրով"
+                    },
+                    "description": null,
+                    "price": 2400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Omelet with Mortadella",
+                        "ru": "Омлет с мортаделлой",
+                        "am": "Օմլետ մորտադելայով"
+                    },
+                    "description": null,
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Benedict with Mortadella",
+                        "ru": "Бенедикт с мортаделлой",
+                        "am": "Բենեդիկտ մորտադելայով"
+                    },
+                    "description": null,
+                    "price": 2700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Benedict with Salmon",
+                        "ru": "Бенедикт с лососем",
+                        "am": "Բենեդիկտ սաղմոնով"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Main Dishes",
+                "ru": "Основные блюда",
+                "am": "Հիմնական ուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Chicken Breast with Bulgur",
+                        "ru": "Куриная грудка с булгуром",
+                        "am": "Հավի կրծքամիս բլղուրով"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tenderloin",
+                        "ru": "Вырезка",
+                        "am": "Տավարի փափկամիս"
+                    },
+                    "description": null,
+                    "price": 4900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Teriyaki Chicken",
+                        "ru": "Курица терияки",
+                        "am": "Թերիյակի հավ"
+                    },
+                    "description": null,
+                    "price": 3100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Curry Chicken",
+                        "ru": "Курица карри",
+                        "am": "Կարրի հավ"
+                    },
+                    "description": null,
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mushroom Risotto",
+                        "ru": "Грибное ризотто",
+                        "am": "Սնկով ռիզոտո"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Pizza",
+                "ru": "Пицца",
+                "am": "Պիցցա"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Margherita",
+                        "ru": "Маргарита",
+                        "am": "Մարգարիտա"
+                    },
+                    "description": null,
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pepperoni",
+                        "ru": "Пепперони",
+                        "am": "Պեպերոնի"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Cheese",
+                        "ru": "Классическая сырная",
+                        "am": "Դասական պանրով"
+                    },
+                    "description": null,
+                    "price": 2500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mushroom and Truffle",
+                        "ru": "Грибная с трюфелем",
+                        "am": "Սնկով և տրյուֆելով"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mortadella",
+                        "ru": "Мортаделла",
+                        "am": "Մորտադելա"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Pasta & Lasagna",
+                "ru": "Паста и Лазанья",
+                "am": "Պաստա և Լազանյա"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Carbonara",
+                        "ru": "Карбонара",
+                        "am": "Կարբոնարա"
+                    },
+                    "description": null,
+                    "price": 2500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Al Arrabiata with Chicken",
+                        "ru": "Алль Аррабиата с курицей",
+                        "am": "Ալ Արաբիատա հավի մսով"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Four Cheese",
+                        "ru": "Четыре сыра",
+                        "am": "Չորս պանիր"
+                    },
+                    "description": null,
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Bolognese",
+                        "ru": "Болоньезе",
+                        "am": "Բոլոնյեզե"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lasagna",
+                        "ru": "Лазанья",
+                        "am": "Լազանյա"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mushroom and Truffle Lasagna",
+                        "ru": "Лазанья с грибами и трюфелем",
+                        "am": "Սնկով և տրյուֆելով լազանյա"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Sandwiches",
+                "ru": "Сэндвичи",
+                "am": "Սենդվիչներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Paprika Feta",
+                        "ru": "Паприка Фета",
+                        "am": "Պապրիկա Ֆետա"
+                    },
+                    "description": null,
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crispy Chicken",
+                        "ru": "Хрустящая курица",
+                        "am": "Խրթխրթան հավ"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Ham",
+                        "ru": "Ветчина",
+                        "am": "Խոզապուխտ"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Roast Beef",
+                        "ru": "Ростбиф",
+                        "am": "Ռոստբիֆ"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Salmon",
+                        "ru": "Лосось",
+                        "am": "Սաղմոն"
+                    },
+                    "description": null,
+                    "price": 3200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tuna",
+                        "ru": "Тунец",
+                        "am": "Թյունոս"
+                    },
+                    "description": null,
+                    "price": 3200,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Salads",
+                "ru": "Салаты",
+                "am": "Աղցաններ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Tabule",
+                        "ru": "Табуле",
+                        "am": "Թաբուլե"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Teriyaki Chicken",
+                        "ru": "Курица терияки",
+                        "am": "Թերիյակի հավ"
+                    },
+                    "description": null,
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crispy Caesar",
+                        "ru": "Хрустящий Цезарь",
+                        "am": "Խրթխրթան Կեսար"
+                    },
+                    "description": null,
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Greek Salad",
+                        "ru": "Греческий салат",
+                        "am": "Հունական աղցան"
+                    },
+                    "description": null,
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Roast Beef Salad",
+                        "ru": "Салат с ростбифом",
+                        "am": "Ռոստբիֆ աղցան"
+                    },
+                    "description": null,
+                    "price": 3500,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Garnishes & Soups",
+                "ru": "Гарниры и Супы",
+                "am": "Խավարտներ և Ապուրներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Mashed Potatoes / Rice",
+                        "ru": "Картофельное пюре / Рис",
+                        "am": "Կարտոֆիլի պյուրե / Բրինձ"
+                    },
+                    "description": null,
+                    "price": 900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Country Style Potatoes",
+                        "ru": "Картофель по-деревенски",
+                        "am": "Գյուղական կարտոֆիլ"
+                    },
+                    "description": null,
+                    "price": 950,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "French Fries",
+                        "ru": "Картофель фри",
+                        "am": "Ֆրի"
+                    },
+                    "description": null,
+                    "price": 1300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken Noodle Soup",
+                        "ru": "Куриный суп с лапшой",
+                        "am": "Հավով լապշայով ապուր"
+                    },
+                    "description": null,
+                    "price": 1700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pumpkin Cream Soup",
+                        "ru": "Тыквенный крем-суп",
+                        "am": "Դդմի կրեմ-ապուր"
+                    },
+                    "description": null,
+                    "price": 1400,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Crepes & Croissants",
+                "ru": "Блины и Круассаны",
+                "am": "Բլիթներ և Կրուասաններ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Crepe (Ham & Cheese / Banana & Nutella)",
+                        "ru": "Блинчик (Ветчина и сыр / Банан и Нутелла)",
+                        "am": "Բլիթ (Խոզապուխտ և պանիր / Բանան և Նուտելլա)"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crepe (Cottage Cheese)",
+                        "ru": "Блинчик (Творог)",
+                        "am": "Բլիթ (Կաթնաշոռով)"
+                    },
+                    "description": null,
+                    "price": 1400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crepe (Salted Caramel)",
+                        "ru": "Блинчик (Соленая карамель)",
+                        "am": "Բլիթ (Աղի կարամել)"
+                    },
+                    "description": null,
+                    "price": 1600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Croissant (Classic)",
+                        "ru": "Круассан (Классический)",
+                        "am": "Կրուասան (Դասական)"
+                    },
+                    "description": null,
+                    "price": 900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Croissant (Raisin / Three Chocolates)",
+                        "ru": "Круассан (Изюм / Три шоколада)",
+                        "am": "Կրուասան (Չամիչ / Երեք շոկոլադ)"
+                    },
+                    "description": null,
+                    "price": 1100,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Desserts",
+                "ru": "Десерты",
+                "am": "Աղանդեր"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "San Sebastian Cheesecake",
+                        "ru": "Чизкейк Сан-Себастьян",
+                        "am": "Սան Սեբաստիան չիզքեյք"
+                    },
+                    "description": {
+                        "en": "Pistachio: 3,400 AMD",
+                        "ru": "Фисташковый: 3,400 AMD",
+                        "am": "Պիստակով: 3,400 AMD"
+                    },
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cheesecake (Blueberry / Oreo / Raffaello / Fruit)",
+                        "ru": "Чизкейк (Черника / Орео / Раффаэлло / Фруктовый)",
+                        "am": "Չիզքեյք (Հապալաս / Օրեո / Ռաֆայելլո / Մրգային)"
+                    },
+                    "description": null,
+                    "price": 2200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tiramisu",
+                        "ru": "Тирамису",
+                        "am": "Տիրամիսու"
+                    },
+                    "description": {
+                        "en": "Pistachio: 2,900 AMD",
+                        "ru": "Фисташковый: 2,900 AMD",
+                        "am": "Պիստակով: 2,900 AMD"
+                    },
+                    "price": 2250,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cakes (Chocolate / Red Velvet / Carrot & Walnut)",
+                        "ru": "Торты (Шоколадный / Красный бархат / Морковный с орехом)",
+                        "am": "Տորթեր (Շոկոլադե / Ռեդ Վելվետ / Գազարով և ընկույզով)"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tarts & Pastries (Strawberry Tart / Apple Strudel / Eclair)",
+                        "ru": "Тарты и выпечка (Клубничный тарт / Яблочный штрудель / Эклер)",
+                        "am": "Տարտեր և թխվածքներ (Ելակի տարտ / Խնձորի շտրուդել / Էկլեր)"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Small Bites (Macaron / Truffle / Cookie)",
+                        "ru": "Маленькие закуски (Макарон / Трюфель / Печенье)",
+                        "am": "Փոքրիկ քաղցրավենիք (Մակարոն / Տրյուֆել / Թխվածքաբլիթ)"
+                    },
+                    "description": null,
+                    "price": 400,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Coffee",
+                "ru": "Кофе",
+                "am": "Սուրճ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Espresso",
+                        "ru": "Эспрессо",
+                        "am": "Էսպրեսսո"
+                    },
+                    "description": {
+                        "en": "300ml / 400ml",
+                        "ru": "300мл / 400мл",
+                        "am": "300մլ / 400մլ"
+                    },
+                    "price": 900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Americano",
+                        "ru": "Американо",
+                        "am": "Ամերիկանո"
+                    },
+                    "description": {
+                        "en": "300ml / 400ml",
+                        "ru": "300мл / 400мл",
+                        "am": "300մլ / 400մլ"
+                    },
+                    "price": 1200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cappuccino",
+                        "ru": "Капучино",
+                        "am": "Կապուչինո"
+                    },
+                    "description": {
+                        "en": "300ml / 400ml",
+                        "ru": "300мл / 400мл",
+                        "am": "300մլ / 400մլ"
+                    },
+                    "price": 1400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Latte",
+                        "ru": "Латте",
+                        "am": "Լատտե"
+                    },
+                    "description": {
+                        "en": "300ml / 400ml",
+                        "ru": "300мл / 400мл",
+                        "am": "300մլ / 400մլ"
+                    },
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Flat White",
+                        "ru": "Флэт Уайт",
+                        "am": "Ֆլեթ Ուայթ"
+                    },
+                    "description": {
+                        "en": "300ml / 400ml",
+                        "ru": "300мл / 400мл",
+                        "am": "300մլ / 400մլ"
+                    },
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Bumble Coffee (300ml)",
+                        "ru": "Бамбл кофе (300мл)",
+                        "am": "Բամբլ սուրճ (300մլ)"
+                    },
+                    "description": null,
+                    "price": 2000,
+                    "currency": "AMD"
+                }
+            ]
+        }
+    ]
+}

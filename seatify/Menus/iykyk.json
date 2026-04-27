@@ -1,0 +1,182 @@
+{
+    "restaurant": {
+        "name": "If You Know You Know"
+    },
+    "menu": [
+        {
+            "category": {
+                "en": "Burgers",
+                "ru": "Бургеры",
+                "am": "Բուրգերներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Classic Smashburger Single",
+                        "ru": "Классический Смашбургер одинарный",
+                        "am": "Դասական Սմեշբուրգեր մեկտեղանոց"
+                    },
+                    "description": null,
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Smashburger Double",
+                        "ru": "Классический Смашбургер двойной",
+                        "am": "Դասական Սմեշբուրգեր երկտեղանոց"
+                    },
+                    "description": null,
+                    "price": 2600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Smashburger Triple",
+                        "ru": "Классический Смашбургер тройной",
+                        "am": "Դասական Սմեշբուրգեր երեքտեղանոց"
+                    },
+                    "description": null,
+                    "price": 3100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken Nashville Burger",
+                        "ru": "Куриный Нэшвилл Бургեր",
+                        "am": "Հավի Նեշվիլ Բուրգեր"
+                    },
+                    "description": null,
+                    "price": 2800,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Appetizers",
+                "ru": "Закуски",
+                "am": "Նախուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "French Fries",
+                        "ru": "Картофель фри",
+                        "am": "Ֆրի"
+                    },
+                    "description": null,
+                    "price": 1200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Nashville Hot Chicken Nuggets",
+                        "ru": "Острые куриные наггетсы Нэшвилл",
+                        "am": "Նեշվիլ կծու հավի նագեթներ"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Truffle Smashed Potato",
+                        "ru": "Размятый картофель с трюфелем",
+                        "am": "Տրյուֆելով ճզմված կարտոֆիլ"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Lent Menu",
+                "ru": "Постное меню",
+                "am": "Պահքի մենյու"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Nashville Cauliflower Nuggets",
+                        "ru": "Наггетсы из цветной капусты Нэшвилл",
+                        "am": "Նեշվիլ ծաղկակաղամբի նագեթներ"
+                    },
+                    "description": null,
+                    "price": 1400,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Sauces",
+                "ru": "Соусы",
+                "am": "Սոուսներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Secret Sauce",
+                        "ru": "Секретный соус",
+                        "am": "Գաղտնի սոուս"
+                    },
+                    "description": null,
+                    "price": 400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Truffle Sauce",
+                        "ru": "Трюфельный соус",
+                        "am": "Տրյուֆելի սոուս"
+                    },
+                    "description": null,
+                    "price": 600,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Drinks",
+                "ru": "Напитки",
+                "am": "Ըմպելիքներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Coca-Cola (0.5l)",
+                        "ru": "Кока-Кола (0.5л)",
+                        "am": "Կոկա-Կոլա (0.5լ)"
+                    },
+                    "description": null,
+                    "price": 600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Fanta (0.5l)",
+                        "ru": "Фанта (0.5л)",
+                        "am": "Ֆանտա (0.5լ)"
+                    },
+                    "description": null,
+                    "price": 600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Peach Iced Tea (400ml)",
+                        "ru": "Персиковый холодный чай (400мл)",
+                        "am": "Դեղձի սառը թեյ (400մլ)"
+                    },
+                    "description": null,
+                    "price": 700,
+                    "currency": "AMD"
+                }
+            ]
+        }
+    ]
+}

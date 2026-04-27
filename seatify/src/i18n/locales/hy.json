@@ -2,6 +2,7 @@
   "nav": {
     "home": "Գլխdelays海avir",
     "search": "Որdelays海onum",
+    "favorites": "Ընտdelays海ratsner",
     "reservations": "Ամdelays海ragirner",
     "orders": "Պdelays海atveranner",
     "profile": "Անdelays海dzagir"
@@ -105,6 +106,8 @@
     "register": "Steghtsel hashiv",
     "or": "kam",
     "magic_link": "Menq kugharkenq dzez magic link",
+    "name": "Anun Azganun",
+    "password": "Gaghtnabar",
     "continue_email": "Sharunakel el. hastov",
     "continue_phone": "Sharunakel herakhosiov",
     "have_account": "Arden uneq hashiv?",

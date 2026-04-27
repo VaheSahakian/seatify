@@ -1,11 +1,12 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Home, Search, CalendarDays, ShoppingBag, User } from 'lucide-react'
+import { Home, Search, Heart, CalendarDays, ShoppingBag, User } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { cn } from '@/lib/utils'
 
 const navItems = [
   { icon: Home, labelKey: 'nav.home', path: '/' },
   { icon: Search, labelKey: 'nav.search', path: '/search' },
+  { icon: Heart, labelKey: 'nav.favorites', path: '/favorites' },
   { icon: CalendarDays, labelKey: 'nav.reservations', path: '/reservations' },
   { icon: ShoppingBag, labelKey: 'nav.orders', path: '/orders' },
   { icon: User, labelKey: 'nav.profile', path: '/profile' },

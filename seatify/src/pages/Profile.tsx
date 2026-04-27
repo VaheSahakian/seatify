@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import {
   User,
   Star,
+  Trophy,
   DollarSign,
   Globe,
   Bell,
@@ -12,12 +13,13 @@ import {
 } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
+import { UserAvatar } from '@/components/common/UserAvatar'
 import { useAuthStore } from '@/store/authStore'
 import { cn } from '@/lib/utils'
 
 const languages = [
   { code: 'en', label: 'English' },
-  { code: 'hy', label: 'Հայerեdelays海n' },
+  { code: 'hy', label: 'Hayeren' },
   { code: 'ru', label: 'Русский' },
 ] as const
 
@@ -74,11 +76,7 @@ export default function Profile() {
         animate={{ opacity: 1, y: 0 }}
         className="flex items-center gap-4 p-4 rounded-[16px] bg-surface mb-6"
       >
-        <img
-          src={user.avatar}
-          alt={user.name}
-          className="w-16 h-16 rounded-full object-cover"
-        />
+        <UserAvatar name={user.name} avatar={user.avatar} size="lg" />
         <div>
           <h2 className="font-semibold">{user.name}</h2>
           <p className="text-sm text-text-secondary">{user.email}</p>
@@ -88,20 +86,27 @@ export default function Profile() {
         </div>
       </motion.div>
 
-      {/* Loyalty & Cashback */}
-      <div className="grid grid-cols-2 gap-3 mb-6">
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="p-4 rounded-[16px] border border-border-light text-center"
-        >
-          <Star size={24} className="text-primary mx-auto mb-2" />
-          <p className="text-2xl font-bold">{user.loyaltyPoints}</p>
+      {/* Loyalty card — links to /loyalty */}
+      <motion.button
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1 }}
+        onClick={() => navigate('/loyalty')}
+        className="w-full flex items-center gap-4 p-4 rounded-[16px] border border-primary/20 bg-primary/5 mb-3 text-left cursor-pointer hover:bg-primary/10 transition-colors"
+      >
+        <Trophy size={28} className="text-primary flex-shrink-0" />
+        <div className="flex-1">
+          <p className="text-lg font-bold">{user.loyaltyPoints} points</p>
           <p className="text-xs text-text-secondary">
-            {t('profile.loyalty_points')}
+            {user.loyaltyTier === 'Gold' ? '\ud83e\udd47' : user.loyaltyTier === 'Silver' ? '\ud83e\udd48' : '\ud83e\udd49'}{' '}
+            {user.loyaltyTier ?? 'Bronze'} tier
           </p>
-        </motion.div>
+        </div>
+        <ChevronRight size={18} className="text-text-tertiary" />
+      </motion.button>
+
+      {/* Cashback */}
+      <div className="grid grid-cols-1 gap-3 mb-6">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}

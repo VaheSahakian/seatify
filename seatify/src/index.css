@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-primary: #FF385C;
   --color-primary-light: #FF5A7E;
@@ -52,6 +54,50 @@
     color: inherit;
     text-decoration: none;
   }
+}
+
+/* Dark mode overrides */
+.dark body,
+.dark main {
+  background-color: #111827;
+  color: #f3f4f6;
+}
+
+.dark .bg-white {
+  background-color: #1f2937 !important;
+}
+
+.dark .bg-white\/80 {
+  background-color: rgba(31, 41, 55, 0.8) !important;
+}
+
+.dark .bg-surface {
+  background-color: #1f2937 !important;
+}
+
+.dark .border-border,
+.dark .border-border-light {
+  border-color: #374151 !important;
+}
+
+.dark .text-text-secondary {
+  color: #9ca3af !important;
+}
+
+.dark .text-text-primary {
+  color: #f3f4f6 !important;
+}
+
+.dark .text-text-tertiary {
+  color: #6b7280 !important;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  border-color: #374151;
 }
 
 /* Leaflet overrides - must be unlayered to override leaflet's own CSS */

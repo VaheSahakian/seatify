@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
-import { Star, MapPin } from 'lucide-react'
+import { Star, MapPin, Heart } from 'lucide-react'
 import { motion } from 'framer-motion'
 import type { Venue } from '@/types'
+import { useFavoriteStore } from '@/store/favoriteStore'
+import { useAuthStore } from '@/store/authStore'
 
 interface VenueCardProps {
   venue: Venue
@@ -9,6 +11,16 @@ interface VenueCardProps {
 }
 
 export function VenueCard({ venue, index = 0 }: VenueCardProps) {
+  const { isFavorite, toggleFavorite } = useFavoriteStore()
+  const { isAuthenticated } = useAuthStore()
+  const favorited = isFavorite(venue.id)
+
+  const handleFavorite = (e: React.MouseEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
+    toggleFavorite(venue.id)
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -22,6 +34,21 @@ export function VenueCard({ venue, index = 0 }: VenueCardProps) {
             alt={venue.name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
+          {isAuthenticated && (
+            <button
+              onClick={handleFavorite}
+              className="absolute top-3 left-3 w-8 h-8 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-sm cursor-pointer hover:bg-white transition-colors"
+            >
+              <Heart
+                size={16}
+                className={
+                  favorited
+                    ? 'fill-red-500 text-red-500'
+                    : 'text-text-secondary'
+                }
+              />
+            </button>
+          )}
           <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm rounded-full px-2 py-1 flex items-center gap-1">
             <Star size={14} className="fill-primary text-primary" />
             <span className="text-sm font-medium">{venue.rating}</span>

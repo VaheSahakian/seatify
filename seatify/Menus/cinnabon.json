@@ -1,0 +1,699 @@
+{
+    "restaurant": {
+        "name": "Cinnabon"
+    },
+    "menu": [
+        {
+            "category": {
+                "en": "Cinnabon Rolls",
+                "ru": "Роллы Синнабон",
+                "am": "Սինաբոն Ռոլեր"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Pistachio Minibon",
+                        "ru": "Фисташковый Минибон",
+                        "am": "Պիստակով Մինիբոն"
+                    },
+                    "description": null,
+                    "price": 1400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Apple Minibon",
+                        "ru": "Яблочный Минибон",
+                        "am": "Խնձորով Մինիբոն"
+                    },
+                    "description": null,
+                    "price": 1300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pecanbon",
+                        "ru": "Пеканбон",
+                        "am": "Պեկանբոն"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mini Pecanbon",
+                        "ru": "Мини Пеканбон",
+                        "am": "Մինի Պեկանբոն"
+                    },
+                    "description": null,
+                    "price": 1600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Cinnabon",
+                        "ru": "Классический Синнабон",
+                        "am": "Դասական Սինաբոն"
+                    },
+                    "description": null,
+                    "price": 1700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Minibon",
+                        "ru": "Классический Минибон",
+                        "am": "Դասական Մինիբոն"
+                    },
+                    "description": null,
+                    "price": 1100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chocobon",
+                        "ru": "Шокобон",
+                        "am": "Շոկոբոն"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mini Chocobon",
+                        "ru": "Мини Шокобон",
+                        "am": "Մինի Շոկոբոն"
+                    },
+                    "description": null,
+                    "price": 1200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Nutella Cinnabon",
+                        "ru": "Нутелла Синнабон",
+                        "am": "Նուտելլա Սինաբոն"
+                    },
+                    "description": null,
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Nutella Minibon",
+                        "ru": "Нутелла Минибон",
+                        "am": "Նուտելլա Մինիբոն"
+                    },
+                    "description": null,
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Berry Minibon",
+                        "ru": "Ягодный Минибон",
+                        "am": "Հատապտղային Մինիբոն"
+                    },
+                    "description": null,
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Roll On-The-Go",
+                        "ru": "Ролл Он-зе-Гоу",
+                        "am": "Ռոլ Օն-դը-Գոու"
+                    },
+                    "description": null,
+                    "price": 1100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cherry Mini Chocobon",
+                        "ru": "Вишневый Мини Шокобон",
+                        "am": "Բալով Մինի Շոկոբոն"
+                    },
+                    "description": null,
+                    "price": 1400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Peanut butter Mini Chocobon",
+                        "ru": "Арахисовый Мини Шокобон",
+                        "am": "Գետնանուշի կարագով Մինի Շոկոբոն"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Brownie Minibon",
+                        "ru": "Брауни Минибон",
+                        "am": "Բրաունի Մինիբոն"
+                    },
+                    "description": null,
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cinnabon sticks",
+                        "ru": "Палочки Синнабон",
+                        "am": "Սինաբոն ձողիկներ"
+                    },
+                    "description": null,
+                    "price": 1600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Lemon Minibon",
+                        "ru": "Лимонный Минибон",
+                        "am": "Լիմոնով Մինիբոն"
+                    },
+                    "description": null,
+                    "price": 1500,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Cinnapacks",
+                "ru": "Синнапаки",
+                "am": "Սինափաքեր"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Classic 4 rolls",
+                        "ru": "Классик 4 ролла",
+                        "am": "Դասական 4 ռոլ"
+                    },
+                    "description": null,
+                    "price": 4100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chocobon 4 rolls",
+                        "ru": "Шокобон 4 ролла",
+                        "am": "Շոկոբոն 4 ռոլ"
+                    },
+                    "description": null,
+                    "price": 4300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Combo 4 rolls",
+                        "ru": "Комбо 4 ролла",
+                        "am": "Կոմբո 4 ռոլ"
+                    },
+                    "description": null,
+                    "price": 4900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Bite pack",
+                        "ru": "Байт пак",
+                        "am": "Բայթ փաք"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic 9 rolls",
+                        "ru": "Классик 9 роллов",
+                        "am": "Դասական 9 ռոլ"
+                    },
+                    "description": null,
+                    "price": 4900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chocobon 9 rolls",
+                        "ru": "Шокобон 9 роллов",
+                        "am": "Շոկոբոն 9 ռոլ"
+                    },
+                    "description": null,
+                    "price": 5200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Combo 9 rolls",
+                        "ru": "Комбо 9 роллов",
+                        "am": "Կոմբո 9 ռոլ"
+                    },
+                    "description": null,
+                    "price": 5700,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Cinnacakes",
+                "ru": "Синнакейки",
+                "am": "Սինաքեյքեր"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Classic (1 floor)",
+                        "ru": "Классик (1 ярус)",
+                        "am": "Դասական (1 հարկ)"
+                    },
+                    "description": null,
+                    "price": 7500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic (2 floors)",
+                        "ru": "Классик (2 яруса)",
+                        "am": "Դասական (2 հարկ)"
+                    },
+                    "description": null,
+                    "price": 12000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Choco (1 floor)",
+                        "ru": "Шоко (1 ярус)",
+                        "am": "Շոկո (1 հարկ)"
+                    },
+                    "description": null,
+                    "price": 9000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Choco (2 floors)",
+                        "ru": "Шоко (2 яруса)",
+                        "am": "Շոկո (2 հարկ)"
+                    },
+                    "description": null,
+                    "price": 15000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pecan (1 floor)",
+                        "ru": "Пекан (1 ярус)",
+                        "am": "Պեկան (1 հարկ)"
+                    },
+                    "description": null,
+                    "price": 14000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pecan (2 floors)",
+                        "ru": "Пекан (2 яруса)",
+                        "am": "Պեկան (2 հարկ)"
+                    },
+                    "description": null,
+                    "price": 19000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Nutella (1 floor)",
+                        "ru": "Нутелла (1 ярус)",
+                        "am": "Նուտելլա (1 հարկ)"
+                    },
+                    "description": null,
+                    "price": 10000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Nutella (2 floors)",
+                        "ru": "Нутелла (2 яруса)",
+                        "am": "Նուտելլա (2 հարկ)"
+                    },
+                    "description": null,
+                    "price": 16000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Berry (1 floor)",
+                        "ru": "Ягодный (1 ярус)",
+                        "am": "Հատապտղային (1 հարկ)"
+                    },
+                    "description": null,
+                    "price": 9000,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Berry (2 floors)",
+                        "ru": "Ягодный (2 яруса)",
+                        "am": "Հատապտղային (2 հարկ)"
+                    },
+                    "description": null,
+                    "price": 15000,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Bouquets & Specialty Cakes",
+                "ru": "Букеты и Специальные Торты",
+                "am": "Փնջեր և Հատուկ Թորթեր"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Classic Cinnacake",
+                        "ru": "Классический Синнакейк",
+                        "am": "Դասական Սինաքեյք"
+                    },
+                    "description": null,
+                    "price": 8500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mini Classic Cinnacake",
+                        "ru": "Мини Классический Синнакейк",
+                        "am": "Մինի Դասական Սինաքեյք"
+                    },
+                    "description": null,
+                    "price": 6500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cinnabon Bouquet “Love”",
+                        "ru": "Букет Синнабон «Любовь»",
+                        "am": "Սինաբոն Փունջ «Սեր»"
+                    },
+                    "description": null,
+                    "price": 10500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mini Bouquet “Love”",
+                        "ru": "Мини Букет «Любовь»",
+                        "am": "Մինի Փունջ «Սեր»"
+                    },
+                    "description": null,
+                    "price": 8500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cinnabon Bouquet “Happy Birthday”",
+                        "ru": "Букет Синнабон «С Днем Рождения»",
+                        "am": "Սինաբոն Փունջ «Շնորհավոր Ծնունդդ»"
+                    },
+                    "description": null,
+                    "price": 10500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mini Bouquet “Happy Birthday”",
+                        "ru": "Мини Букет «С Днем Рождения»",
+                        "am": "Մինի Փունջ «Շնորհավոր Ծնունդդ»"
+                    },
+                    "description": null,
+                    "price": 8500,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Sandwiches & Savory",
+                "ru": "Сэндвичи и Закуски",
+                "am": "Սենդվիչներ և Ուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Ham and cheese sandwich",
+                        "ru": "Сэндвич с ветчиной и сыром",
+                        "am": "Խոզապուխտով և պանրով սենդվիչ"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken Chiabatta sandwich",
+                        "ru": "Сэндвич Чиабатта с курицей",
+                        "am": "Հավով Չիաբատա սենդվիչ"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Caesar sandwich",
+                        "ru": "Сэндвич Цезарь",
+                        "am": "Կեսար սենդվիչ"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cinna bacon sandwich",
+                        "ru": "Синна сэндвич с беконом",
+                        "am": "Սիննա բեկոն սենդվիչ"
+                    },
+                    "description": null,
+                    "price": 2200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Smoked Cinna sandwich",
+                        "ru": "Копченый Синна сэндвич",
+                        "am": "Ապխտած Սիննա սենդվիչ"
+                    },
+                    "description": null,
+                    "price": 2400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken panini",
+                        "ru": "Панини с курицей",
+                        "am": "Հավով պանինի"
+                    },
+                    "description": null,
+                    "price": 2400,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Beef panini",
+                        "ru": "Панини с говядиной",
+                        "am": "Տավարի մսով պանինի"
+                    },
+                    "description": null,
+                    "price": 2700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cinna beef burger",
+                        "ru": "Синна бургер с говядиной",
+                        "am": "Սիննա տավարի մսով բուրգեր"
+                    },
+                    "description": null,
+                    "price": 3800,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Salads",
+                "ru": "Салаты",
+                "am": "Աղցաններ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Greek salad",
+                        "ru": "Греческий салат",
+                        "am": "Հունական աղցան"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Caesar salad",
+                        "ru": "Салат Цезарь",
+                        "am": "Կեսար աղցան"
+                    },
+                    "description": null,
+                    "price": 3100,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Kids Menu",
+                "ru": "Детское меню",
+                "am": "Մանկական մենյու"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Bear burger",
+                        "ru": "Мишка бургер",
+                        "am": "Արջուկ բուրգեր"
+                    },
+                    "description": null,
+                    "price": 1700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Ham and cheese sandwich",
+                        "ru": "Сэндвич с ветчиной и сыром (детский)",
+                        "am": "Խոզապուխտով և պանրով սենդվիչ"
+                    },
+                    "description": null,
+                    "price": 1600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken nuggets with french fries",
+                        "ru": "Куриные наггетсы с картофелем фри",
+                        "am": "Հավի նագեթս ֆրիով"
+                    },
+                    "description": null,
+                    "price": 1700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Kids pizza",
+                        "ru": "Детская пицца",
+                        "am": "Մանկական պիցցա"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Beverages",
+                "ru": "Напитки",
+                "am": "Ըմպելիքներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Water (Bjni/Noy 0.5l)",
+                        "ru": "Вода (Бжни/Ной 0,5л)",
+                        "am": "Ջուր (Բջնի/Նոյ 0.5լ)"
+                    },
+                    "description": null,
+                    "price": 600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Soft Drinks (Coke/Fanta/Sprite 0.25l)",
+                        "ru": "Газированные напитки (Кола/Фанта/Спрайт 0,25л)",
+                        "am": "Զովացուցիչ ըմպելիքներ (Կոկա-Կոլա/Ֆանտա/Սպրայտ 0.25լ)"
+                    },
+                    "description": null,
+                    "price": 700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Red Bull",
+                        "ru": "Ред Булл",
+                        "am": "Ռեդ Բուլ"
+                    },
+                    "description": null,
+                    "price": 1500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Espresso",
+                        "ru": "Эспрессо",
+                        "am": "Էսպրեսո"
+                    },
+                    "description": null,
+                    "price": 1100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Double Espresso",
+                        "ru": "Двойной Эспрессо",
+                        "am": "Կրկնակի Էսպրեսո"
+                    },
+                    "description": null,
+                    "price": 1700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Americano",
+                        "ru": "Американо",
+                        "am": "Ամերիկանո"
+                    },
+                    "description": null,
+                    "price": 1200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cappuccino",
+                        "ru": "Капучино",
+                        "am": "Կապուչինո"
+                    },
+                    "description": null,
+                    "price": 1700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Latte / Mocha",
+                        "ru": "Латте / Мокко",
+                        "am": "Լատտե / Մոկկո"
+                    },
+                    "description": null,
+                    "price": 1800,
+                    "currency": "AMD"
+                }
+            ]
+        }
+    ]
+}

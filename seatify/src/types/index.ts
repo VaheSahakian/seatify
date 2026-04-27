@@ -5,8 +5,24 @@ export interface User {
   phone?: string
   avatar?: string
   loyaltyPoints: number
+  loyaltyTier: string
   cashback: number
   language: 'en' | 'hy' | 'ru'
+}
+
+export interface PointTransaction {
+  id: number
+  points: number
+  type: string
+  description: string
+  reservationId?: string
+  createdAt: string
+}
+
+export interface LoyaltyData {
+  points: number
+  tier: string
+  history: PointTransaction[]
 }
 
 export interface Venue {
@@ -63,6 +79,7 @@ export interface FloorTable {
   seats: number
   label: string
   status: 'available' | 'occupied' | 'reserved'
+  rotation?: number
 }
 
 export interface MenuCategory {
@@ -120,6 +137,8 @@ export interface SearchFilters {
   priceRange: number[]
   minRating: number
   sortBy: 'rating' | 'distance' | 'price'
+  openNow: boolean
+  dietaryTags: string[]
 }
 
 // ── Admin types ──────────────────────────────────────────────

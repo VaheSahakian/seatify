@@ -1,106 +1,132 @@
-import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useNavigate, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Search, ChevronRight } from 'lucide-react'
+import { ChevronRight, Clock, Star } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { VenueCard } from '@/components/venue/VenueCard'
+import { PageTransition } from '@/components/layout/PageTransition'
+import { VenueCardSkeleton } from '@/components/venue/VenueCardSkeleton'
+import { FoodCategories } from '@/components/home/FoodCategories'
+import { DietaryFilters } from '@/components/home/DietaryFilters'
+import { HeroCarousel } from '@/components/home/HeroCarousel'
+import { AIRecommendations } from '@/components/home/AIRecommendations'
+import { SearchAutocomplete } from '@/components/common/SearchAutocomplete'
 import { useVenueStore } from '@/store/venueStore'
-
-const cuisineCategories = [
-  'Armenian',
-  'Italian',
-  'Pasta',
-  'Pizza',
-  'Fast Food',
-  'American',
-  'BBQ',
-  'Kebab',
-  'Salads',
-  'Wine',
-  'Vegan',
-  'Desserts',
-  'Cafe',
-]
+import { useRecentStore } from '@/store/recentStore'
 
 export default function Home() {
   const { t } = useTranslation()
   const navigate = useNavigate()
-  const { venues, fetchVenues, setFilters } = useVenueStore()
-  const [query, setQuery] = useState('')
+  const { venues, fetchVenues, setFilters, loading } = useVenueStore()
+  const { items: recentItems } = useRecentStore()
 
   useEffect(() => {
     fetchVenues()
   }, [fetchVenues])
 
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSearch = (query: string) => {
+    // Called on Enter or form-level submit behavior from autocomplete
+  }
+
+  const handleSearchSubmit = (query: string) => {
     setFilters({ query })
     navigate('/search')
   }
 
-  const handleCuisine = (cuisine: string) => {
-    setFilters({ cuisine: [cuisine], query: '' })
-    navigate('/search')
-  }
+  const showSkeletons = loading || venues.length === 0
 
   return (
+    <PageTransition>
     <div>
-      {/* Hero */}
-      <section className="relative bg-gradient-to-b from-primary/5 to-transparent">
-        <div className="max-w-7xl mx-auto px-4 pt-12 pb-8">
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-3xl sm:text-4xl font-bold text-text-primary mb-2"
-          >
-            {t('home.hero_title')}
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="text-text-secondary mb-6"
-          >
-            {t('home.hero_subtitle')}
-          </motion.p>
-
-          <motion.form
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            onSubmit={handleSearch}
-            className="relative max-w-xl"
-          >
-            <Search
-              size={20}
-              className="absolute left-4 top-1/2 -translate-y-1/2 text-text-tertiary"
-            />
-            <input
-              type="text"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder={t('home.search_placeholder')}
-              className="w-full pl-12 pr-4 py-4 rounded-full border border-border bg-white shadow-md focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary text-sm"
-            />
-          </motion.form>
-        </div>
+      {/* Hero Carousel */}
+      <section className="max-w-7xl mx-auto px-4 pt-6">
+        <HeroCarousel />
       </section>
 
-      {/* Categories */}
-      <section className="max-w-7xl mx-auto px-4 py-8">
+      {/* Title + Search */}
+      <section className="max-w-7xl mx-auto px-4 pt-6 pb-4">
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-2xl sm:text-3xl font-bold text-text-primary mb-1"
+        >
+          {t('home.hero_title')}
+        </motion.h1>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="text-text-secondary mb-4 text-sm"
+        >
+          {t('home.hero_subtitle')}
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="max-w-xl"
+        >
+          <SearchAutocomplete
+            onSearch={handleSearchSubmit}
+            placeholder={t('home.search_placeholder')}
+            className="w-full"
+          />
+        </motion.div>
+      </section>
+
+      {/* Food Categories */}
+      <section className="max-w-7xl mx-auto px-4 py-6">
         <h2 className="text-xl font-semibold mb-4">{t('home.categories')}</h2>
-        <div className="flex gap-2 overflow-x-auto no-scrollbar pb-2">
-          {cuisineCategories.slice(0, 8).map((cuisine) => (
-            <button
-              key={cuisine}
-              onClick={() => handleCuisine(cuisine)}
-              className="px-4 py-2 rounded-full bg-surface text-sm font-medium text-text-secondary hover:bg-primary hover:text-white transition-colors whitespace-nowrap shrink-0 cursor-pointer"
-            >
-              {cuisine}
-            </button>
-          ))}
-        </div>
+        <FoodCategories />
       </section>
+
+      {/* Dietary Filters */}
+      <section className="max-w-7xl mx-auto px-4 pb-6">
+        <h2 className="text-sm font-semibold text-text-secondary mb-3">Dietary Preferences</h2>
+        <DietaryFilters />
+      </section>
+
+      {/* Recently Viewed */}
+      {recentItems.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 pb-6">
+          <div className="flex items-center gap-2 mb-4">
+            <Clock size={18} className="text-text-secondary" />
+            <h2 className="text-xl font-semibold">Recently Viewed</h2>
+          </div>
+          <div
+            className="flex gap-4 overflow-x-auto pb-2 scrollbar-hide"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {recentItems.map((item) => (
+              <Link
+                key={item.id}
+                to={`/venue/${item.slug}`}
+                className="flex flex-col items-center shrink-0 group"
+              >
+                <div className="w-20 h-20 rounded-lg overflow-hidden mb-1.5">
+                  {item.image ? (
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-surface" />
+                  )}
+                </div>
+                <p className="text-xs font-medium text-text-primary text-center truncate max-w-[100px] group-hover:text-primary transition-colors">
+                  {item.name}
+                </p>
+                <div className="flex items-center gap-0.5">
+                  <Star size={10} className="fill-primary text-primary" />
+                  <span className="text-[10px] text-text-tertiary">{item.rating}</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Featured */}
       <section className="max-w-7xl mx-auto px-4 pb-8">
@@ -115,11 +141,18 @@ export default function Home() {
           </button>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {venues.slice(0, 3).map((venue, i) => (
-            <VenueCard key={venue.id} venue={venue} index={i} />
-          ))}
+          {showSkeletons
+            ? Array.from({ length: 3 }).map((_, i) => (
+                <VenueCardSkeleton key={i} />
+              ))
+            : venues.slice(0, 3).map((venue, i) => (
+                <VenueCard key={venue.id} venue={venue} index={i} />
+              ))}
         </div>
       </section>
+
+      {/* Recommended for You */}
+      <AIRecommendations />
 
       {/* Near You */}
       <section className="max-w-7xl mx-auto px-4 pb-12">
@@ -134,11 +167,16 @@ export default function Home() {
           </button>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {venues.slice(3, 6).map((venue, i) => (
-            <VenueCard key={venue.id} venue={venue} index={i} />
-          ))}
+          {showSkeletons
+            ? Array.from({ length: 3 }).map((_, i) => (
+                <VenueCardSkeleton key={i} />
+              ))
+            : venues.slice(3, 6).map((venue, i) => (
+                <VenueCard key={venue.id} venue={venue} index={i} />
+              ))}
         </div>
       </section>
     </div>
+    </PageTransition>
   )
 }

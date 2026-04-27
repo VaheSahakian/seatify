@@ -39,6 +39,10 @@ public class User {
     @Builder.Default
     private Integer loyaltyPoints = 0;
 
+    @Column(name = "loyalty_tier", nullable = false, length = 20)
+    @Builder.Default
+    private String loyaltyTier = "Bronze";
+
     @Column(nullable = false, precision = 10, scale = 2)
     @Builder.Default
     private BigDecimal cashback = BigDecimal.ZERO;

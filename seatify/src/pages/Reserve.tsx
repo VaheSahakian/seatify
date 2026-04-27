@@ -11,7 +11,9 @@ import { useVenueStore } from '@/store/venueStore'
 import { useReservationStore } from '@/store/reservationStore'
 import { useCartStore } from '@/store/cartStore'
 import type { FloorTable } from '@/types'
+import { intempoFloor2, floor2Walls } from '@/data/intempoFloor2'
 import { cn } from '@/lib/utils'
+
 
 const timeSlots = [
   '11:00', '11:30', '12:00', '12:30', '13:00', '13:30',
@@ -27,7 +29,7 @@ export default function Reserve() {
   const { t } = useTranslation()
   const { venues, fetchVenues } = useVenueStore()
   const { setCurrentReservation } = useReservationStore()
-  const { items: cartItems } = useCartStore()
+  const { items: cartItems, clearCart } = useCartStore()
 
   useEffect(() => {
     fetchVenues()
@@ -39,6 +41,7 @@ export default function Reserve() {
   const [time, setTime] = useState('')
   const [partySize, setPartySize] = useState(2)
   const [selectedTable, setSelectedTable] = useState<FloorTable | null>(null)
+  const [selectedFloor, setSelectedFloor] = useState(1)
 
   const dates = useMemo(
     () => Array.from({ length: 7 }, (_, i) => addDays(new Date(), i + 1)),
@@ -53,12 +56,20 @@ export default function Reserve() {
     )
   }
 
+  const autoAssignTable = () => {
+    if (!venue.floorPlan) return null
+    const suitable = venue.floorPlan.tables
+      .filter((t) => t.seats >= partySize && t.status === 'available')
+      .sort((a, b) => a.seats - b.seats)
+    return suitable[0] || venue.floorPlan.tables[0] || null
+  }
+
   const canProceed = () => {
     switch (step) {
       case 0:
         return date && time && partySize > 0
       case 1:
-        return selectedTable !== null
+        return true // table is now optional
       case 2:
         return true
       default:
@@ -67,7 +78,13 @@ export default function Reserve() {
   }
 
   const handleNext = () => {
+    if (step === 1 && !selectedTable) {
+      // Auto-assign a table if user skipped selection
+      const auto = autoAssignTable()
+      if (auto) setSelectedTable(auto)
+    }
     if (step === 2) {
+      const table = selectedTable || autoAssignTable()
       setCurrentReservation({
         venueId: venue.id,
         venueName: venue.name,
@@ -75,8 +92,8 @@ export default function Reserve() {
         date,
         time,
         partySize,
-        tableId: selectedTable!.id,
-        tableLabel: selectedTable!.label,
+        tableId: table?.id || '',
+        tableLabel: table?.label || 'Auto',
         preOrder: cartItems.filter((i) => i.venueId === venue.id),
       })
       navigate('/checkout')
@@ -233,12 +250,37 @@ export default function Reserve() {
 
           {step === 1 && (
             <div>
-              <h2 className="font-semibold mb-4">{t('reserve.select_table')}</h2>
+              <h2 className="font-semibold mb-2">{t('reserve.select_table')}</h2>
               <p className="text-sm text-text-secondary mb-4">
-                {t('venue.seats', { count: partySize })}
+                Choose a table or let us assign one for you
               </p>
+
+              {/* Auto-assign option */}
+              <button
+                onClick={() => { setSelectedTable(null); handleNext() }}
+                className="w-full mb-4 p-3 rounded-[12px] border-2 border-dashed border-primary/30 bg-primary/5 text-primary text-sm font-medium hover:bg-primary/10 transition-colors cursor-pointer"
+              >
+                Assign me a table automatically (based on party size)
+              </button>
+
+              <p className="text-xs text-text-tertiary text-center mb-4">— or pick one yourself —</p>
+
+              {venue.slug === 'intempo' && (
+                <div className="flex gap-1 p-1 bg-gray-100 rounded-full w-fit mb-4">
+                  <button
+                    onClick={() => setSelectedFloor(1)}
+                    className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer ${selectedFloor === 1 ? 'bg-primary text-white' : 'text-text-secondary hover:text-text-primary'}`}
+                  >1st Floor</button>
+                  <button
+                    onClick={() => setSelectedFloor(2)}
+                    className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors cursor-pointer ${selectedFloor === 2 ? 'bg-primary text-white' : 'text-text-secondary hover:text-text-primary'}`}
+                  >2nd Floor</button>
+                </div>
+              )}
+
               <FloorPlan
-                floorPlan={venue.floorPlan}
+                floorPlan={venue.slug === 'intempo' && selectedFloor === 2 ? intempoFloor2 : venue.floorPlan}
+                walls={venue.slug === 'intempo' && selectedFloor === 2 ? floor2Walls : undefined}
                 selectedTableId={selectedTable?.id}
                 onSelectTable={setSelectedTable}
                 selectable
@@ -257,6 +299,17 @@ export default function Reserve() {
 
           {step === 2 && (
             <div>
+              {/* Sticky action buttons at top for pre-order step */}
+              <div className="sticky top-0 z-10 bg-white pb-3 pt-1 -mx-4 px-4 border-b border-border-light mb-4">
+                <div className="flex gap-3">
+                  <Button variant="outline" className="flex-1" onClick={() => { clearCart(); handleNext() }}>
+                    {t('reserve.skip')}
+                  </Button>
+                  <Button className="flex-1" onClick={handleNext}>
+                    {t('reserve.continue')}
+                  </Button>
+                </div>
+              </div>
               <h2 className="font-semibold mb-2">{t('reserve.pre_order')}</h2>
               <p className="text-sm text-text-secondary mb-6">
                 {t('reserve.pre_order_desc')}
@@ -267,21 +320,18 @@ export default function Reserve() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Bottom actions */}
-      <div className="flex gap-3 mt-8">
-        {step === 2 && (
-          <Button variant="outline" className="flex-1" onClick={handleNext}>
-            {t('reserve.skip')}
+      {/* Bottom actions (hidden on pre-order step — buttons are sticky at top there) */}
+      {step !== 2 && (
+        <div className="flex gap-3 mt-8">
+          <Button
+            className="flex-1"
+            disabled={!canProceed()}
+            onClick={handleNext}
+          >
+            {t('reserve.continue')}
           </Button>
-        )}
-        <Button
-          className="flex-1"
-          disabled={!canProceed()}
-          onClick={handleNext}
-        >
-          {t('reserve.continue')}
-        </Button>
-      </div>
+        </div>
+      )}
     </div>
   )
 }

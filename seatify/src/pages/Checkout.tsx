@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft, CalendarDays, Clock, Users, CreditCard, Banknote, CheckCircle2 } from 'lucide-react'
+import { ArrowLeft, CalendarDays, Clock, Users, CreditCard, Banknote, Smartphone, Wallet } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import QRCode from 'react-qr-code'
 import { Button } from '@/components/ui/button'
@@ -10,6 +10,7 @@ import { useCartStore } from '@/store/cartStore'
 import { formatPrice } from '@/lib/utils'
 import { cn } from '@/lib/utils'
 import { toast } from 'sonner'
+import { fireConfetti } from '@/lib/confetti'
 import type { Reservation } from '@/types'
 
 export default function Checkout() {
@@ -18,9 +19,15 @@ export default function Checkout() {
   const lang = i18n.language
   const { currentReservation, confirmReservation } = useReservationStore()
   const { clearCart } = useCartStore()
-  const [paymentMethod, setPaymentMethod] = useState<'card' | 'cash'>('card')
+  const [paymentMethod, setPaymentMethod] = useState<string>('card')
   const [confirmed, setConfirmed] = useState<Reservation | null>(null)
   const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    if (confirmed) {
+      fireConfetti()
+    }
+  }, [confirmed])
 
   if (!currentReservation && !confirmed) {
     navigate('/reservations')
@@ -51,9 +58,25 @@ export default function Checkout() {
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
-          transition={{ type: 'spring', duration: 0.5 }}
+          transition={{ type: 'spring', stiffness: 200, damping: 15 }}
+          className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4"
         >
-          <CheckCircle2 size={64} className="text-success mx-auto mb-4" />
+          <motion.svg
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="w-10 h-10 text-green-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={3}
+          >
+            <motion.path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M5 13l4 4L19 7"
+            />
+          </motion.svg>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -170,30 +193,32 @@ export default function Checkout() {
         <div>
           <h2 className="font-semibold mb-3">{t('checkout.payment_method')}</h2>
           <div className="space-y-2">
-            <button
-              onClick={() => setPaymentMethod('card')}
-              className={cn(
-                'w-full flex items-center gap-3 p-4 rounded-[12px] border transition-colors cursor-pointer',
-                paymentMethod === 'card'
-                  ? 'border-primary bg-primary/5'
-                  : 'border-border hover:border-text-secondary'
-              )}
-            >
-              <CreditCard size={20} className={paymentMethod === 'card' ? 'text-primary' : 'text-text-secondary'} />
-              <span className="text-sm font-medium">{t('checkout.card')}</span>
-            </button>
-            <button
-              onClick={() => setPaymentMethod('cash')}
-              className={cn(
-                'w-full flex items-center gap-3 p-4 rounded-[12px] border transition-colors cursor-pointer',
-                paymentMethod === 'cash'
-                  ? 'border-primary bg-primary/5'
-                  : 'border-border hover:border-text-secondary'
-              )}
-            >
-              <Banknote size={20} className={paymentMethod === 'cash' ? 'text-primary' : 'text-text-secondary'} />
-              <span className="text-sm font-medium">{t('checkout.cash')}</span>
-            </button>
+            {[
+              { id: 'card', label: 'Credit / Debit Card', icon: CreditCard },
+              { id: 'apple_pay', label: 'Apple Pay', icon: Smartphone, logo: '🍎' },
+              { id: 'google_pay', label: 'Google Pay', icon: Wallet, logo: '🔵' },
+              { id: 'idram', label: 'Idram', icon: Smartphone, logo: '💜' },
+              { id: 'telcell', label: 'Telcell Wallet', icon: Smartphone, logo: '🟠' },
+              { id: 'cash', label: 'Cash on Arrival', icon: Banknote },
+            ].map(({ id, label, icon: Icon, logo }) => (
+              <button
+                key={id}
+                onClick={() => setPaymentMethod(id)}
+                className={cn(
+                  'w-full flex items-center gap-3 p-4 rounded-[12px] border transition-colors cursor-pointer',
+                  paymentMethod === id
+                    ? 'border-primary bg-primary/5'
+                    : 'border-border hover:border-text-secondary'
+                )}
+              >
+                {logo ? (
+                  <span className="text-xl w-5 text-center">{logo}</span>
+                ) : (
+                  <Icon size={20} className={paymentMethod === id ? 'text-primary' : 'text-text-secondary'} />
+                )}
+                <span className="text-sm font-medium">{label}</span>
+              </button>
+            ))}
           </div>
         </div>
 

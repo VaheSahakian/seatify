@@ -1,8 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Star } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { apiFetch } from '@/lib/api'
+import { ReviewForm } from '@/components/venue/ReviewForm'
+import { useAuthStore } from '@/store/authStore'
+import { Link } from 'react-router-dom'
 import type { Review } from '@/types'
 
 interface VenueReviewsProps {
@@ -12,15 +15,21 @@ interface VenueReviewsProps {
 export function VenueReviews({ venueId }: VenueReviewsProps) {
   const { i18n } = useTranslation()
   const lang = i18n.language
+  const { isAuthenticated } = useAuthStore()
   const [venueReviews, setVenueReviews] = useState<Review[]>([])
   const [loading, setLoading] = useState(true)
 
-  useEffect(() => {
+  const loadReviews = useCallback(() => {
+    setLoading(true)
     apiFetch<{ content: Review[] }>(`/api/venues/${venueId}/reviews?size=50`)
       .then((data) => setVenueReviews(data.content))
       .catch(() => {})
       .finally(() => setLoading(false))
   }, [venueId])
+
+  useEffect(() => {
+    loadReviews()
+  }, [loadReviews])
 
   if (loading) {
     return (
@@ -30,16 +39,28 @@ export function VenueReviews({ venueId }: VenueReviewsProps) {
     )
   }
 
-  if (venueReviews.length === 0) {
-    return (
-      <p className="text-text-secondary text-sm py-8 text-center">
-        No reviews yet
-      </p>
-    )
-  }
-
   return (
     <div className="space-y-4">
+      {/* Review form or login prompt */}
+      {isAuthenticated ? (
+        <ReviewForm venueId={venueId} onSubmitted={loadReviews} />
+      ) : (
+        <div className="p-4 rounded-[12px] border border-border-light bg-surface/50 mb-2 text-center">
+          <p className="text-sm text-text-secondary">
+            <Link to="/auth" className="text-primary font-medium hover:underline">
+              Log in
+            </Link>{' '}
+            to leave a review
+          </p>
+        </div>
+      )}
+
+      {venueReviews.length === 0 && (
+        <p className="text-text-secondary text-sm py-8 text-center">
+          No reviews yet
+        </p>
+      )}
+
       {venueReviews.map((review, i) => (
         <motion.div
           key={review.id}

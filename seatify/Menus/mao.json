@@ -1,0 +1,696 @@
+{
+    "restaurant": {
+        "name": "Mao"
+    },
+    "menu": [
+        {
+            "category": {
+                "en": "Appetizers",
+                "ru": "Закуски",
+                "am": "Նախուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Kimchi Cucumber",
+                        "ru": "Кимчи из огурцов",
+                        "am": "Կիմչի վարունգով"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Kimchi Pineapple",
+                        "ru": "Кимчи из ананаса",
+                        "am": "Կիմչի անանասով"
+                    },
+                    "description": null,
+                    "price": 2970,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Deep Fried Sweet Potato Shrimps",
+                        "ru": "Креветки во фритюре со сладким картофелем",
+                        "am": "Տապակած մրգային կարտոֆիլով (բատատ) ծովախեցգետիններ"
+                    },
+                    "description": null,
+                    "price": 4290,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crispy Prawn with Mango Salsa and Wasabi Sauce",
+                        "ru": "Хрустящие креветки с сальсой из манго и соусом васаби",
+                        "am": "Խրթխրթան ծովախեցգետին մանգոյի սալսայով և վասաբի սոուսով"
+                    },
+                    "description": null,
+                    "price": 4290,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Fresh Spring Rolls with Vegetables",
+                        "ru": "Свежие спринг-роллы с овощами",
+                        "am": "Թարմ սփրինգ ռոլլեր բանջարեղենով"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Edamame Classic",
+                        "ru": "Эдамаме классические",
+                        "am": "Էդամամե դասական"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Edamame Spicy",
+                        "ru": "Эдамаме острые",
+                        "am": "Էդամամե կծու"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Peking Duck Soft Tacos",
+                        "ru": "Мягкие тако с уткой по-пекински",
+                        "am": "Պեկինյան բադով փափուկ տակոներ"
+                    },
+                    "description": null,
+                    "price": 4290,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Rock Shrimp Tempura",
+                        "ru": "Креветки Рок Темпура",
+                        "am": "Ռոք ծովախեցգետին տեմպուրա"
+                    },
+                    "description": null,
+                    "price": 6050,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Poke Bowls",
+                "ru": "Поке боулы",
+                "am": "Պոկե բոուլներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Salmon Poke Bowl",
+                        "ru": "Поке боул с лососем",
+                        "am": "Պոկե բոուլ սաղմոնով"
+                    },
+                    "description": null,
+                    "price": 6490,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Vegetable Poke Bowl",
+                        "ru": "Овощной поке боул",
+                        "am": "Բանջարեղենային պոկե բոուլ"
+                    },
+                    "description": null,
+                    "price": 4290,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Soups",
+                "ru": "Супы",
+                "am": "Ապուրներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Miso Soup",
+                        "ru": "Мисо суп",
+                        "am": "Միսո ապուր"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tom Yum Goong",
+                        "ru": "Том Ям Гунг",
+                        "am": "Տոմ Յամ Գունգ"
+                    },
+                    "description": null,
+                    "price": 4290,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Hot and Sour Soup",
+                        "ru": "Кисло-острый суп",
+                        "am": "Թթվակծու ապուր"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Corn Crab Soup",
+                        "ru": "Кукурузный суп с крабом",
+                        "am": "Եգիպտացորենի ապուր խեցգետնով"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Salads",
+                "ru": "Салаты",
+                "am": "Աղցաններ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Chuka Wakawe with Sesame Sauce",
+                        "ru": "Чука Вакаме с кунжутным соусом",
+                        "am": "Չուկա Վակամե քունջութի սոուսով"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mango and Cucumber Salad with Seared Fresh Tuna",
+                        "ru": "Салат с манго и огурцом с обожженным свежим тунцом",
+                        "am": "Մանգոյով և վարունգով աղցան թեթև տապակած թյուննոսով"
+                    },
+                    "description": null,
+                    "price": 4730,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Vietnamese Glass Noodle Salad with Baby Squids",
+                        "ru": "Вьетнамский салат из стеклянной лапши с маленькими кальмарами",
+                        "am": "Վիետնամական ապակյա լապշայով աղցան փոքր կաղամարներով"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pig Ear Salad",
+                        "ru": "Салат из свиных ушей",
+                        "am": "Խոզի ականջով աղցան"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Thai Pomelo Salad (Yam Som O)",
+                        "ru": "Тайский салат из помело (Ям Сом О)",
+                        "am": "Թայլանդական պոմելոյով աղցան (Յամ Սոմ Օ)"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Spicy Sechuan Beef Salad",
+                        "ru": "Острый салат с говядиной по-сычуаньски",
+                        "am": "Կծու սեչուանյան տավարի մսով աղցան"
+                    },
+                    "description": null,
+                    "price": 4730,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Crispy Duck Salad",
+                        "ru": "Салат с хрустящей уткой",
+                        "am": "Խրթխրթան բադով աղցան"
+                    },
+                    "description": null,
+                    "price": 4730,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Spicy Mango Salad (Yam Mamuang)",
+                        "ru": "Острый салат из манго (Ям Мамуанг)",
+                        "am": "Կծու մանգոյով աղցան (Յամ Մամուանգ)"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Noodles",
+                "ru": "Лапша",
+                "am": "Լապշա"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Pad Siu Beef",
+                        "ru": "Пад Сиу с говядиной",
+                        "am": "Փադ Սիու տավարի մսով"
+                    },
+                    "description": null,
+                    "price": 5390,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Roast Duck Chow Mein",
+                        "ru": "Чоу мейн с жареной уткой",
+                        "am": "Չաու Մեյն տապակած բադով"
+                    },
+                    "description": null,
+                    "price": 5390,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pad Thai with Shrimps",
+                        "ru": "Пад Тай с креветками",
+                        "am": "Փադ Թայ ծովախեցգետիններով"
+                    },
+                    "description": null,
+                    "price": 5830,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Yaki Udon Seafood",
+                        "ru": "Яки удон с морепродуктами",
+                        "am": "Յակի Ուդոն ծովամթերքով"
+                    },
+                    "description": null,
+                    "price": 5830,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Rice",
+                "ru": "Рис",
+                "am": "Բրինձ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Garlic Egg Fried Rice",
+                        "ru": "Жареный рис с чесноком и яйцом",
+                        "am": "Սխտորով և ձվով տապակած բրինձ"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chao Fan Rice with Vegetables",
+                        "ru": "Рис Чао Фань с овощами",
+                        "am": "Չաո Ֆան բրինձ բանջարեղենով"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken Fried Rice in Teriyaki Sauce",
+                        "ru": "Жареный рис с курицей в соусе терияки",
+                        "am": "Հավի մսով տապակած բրինձ տերիյակի սոուսով"
+                    },
+                    "description": null,
+                    "price": 2750,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Seafood Fried Rice",
+                        "ru": "Жареный рис с морепродуктами",
+                        "am": "Ծովամթերքով տապակած բրինձ"
+                    },
+                    "description": null,
+                    "price": 3850,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Main Dishes",
+                "ru": "Основные блюда",
+                "am": "Հիմնական ուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Oyster Sauce Beef",
+                        "ru": "Говядина в устричном соусе",
+                        "am": "Տավարի միս ոստրեի սոուսով"
+                    },
+                    "description": null,
+                    "price": 6930,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cantonese Style Dorade (Shiitake, Ginger & Green Onions)",
+                        "ru": "Дорадо по-кантонски (шиитаке, имбирь и зеленый лук)",
+                        "am": "Կանտոնական ոճի դորադո (շիիտակե, կոճապղպեղ և կանաչ սոխ)"
+                    },
+                    "description": null,
+                    "price": 13090,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Wok Fried Shrimps in Tamarind Sauce",
+                        "ru": "Креветки на воке в тамариндовом соусе",
+                        "am": "Վոկ տապակած ծովախեցգետիններ թամարինդի սոուսով"
+                    },
+                    "description": null,
+                    "price": 7590,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Sweet and Sour Chicken",
+                        "ru": "Кисло-сладкая курица",
+                        "am": "Թթվաքաղցր հավի միս"
+                    },
+                    "description": null,
+                    "price": 5390,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mongolian Beef",
+                        "ru": "Говядина по-монгольски",
+                        "am": "Մոնղոլական տավարի միս"
+                    },
+                    "description": null,
+                    "price": 6930,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Green Basil Lamb",
+                        "ru": "Ягнятина с зеленым базиликом",
+                        "am": "Գառան միս կանաչ ռեհանով"
+                    },
+                    "description": null,
+                    "price": 5390,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Kung Pao Chicken",
+                        "ru": "Курица Кунг Пао",
+                        "am": "Կունգ Պաո հավի միս"
+                    },
+                    "description": null,
+                    "price": 5390,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Peking Duck Half",
+                        "ru": "Утка по-пекински (половина)",
+                        "am": "Պեկինյան բադ (կես)"
+                    },
+                    "description": null,
+                    "price": 10890,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Peking Duck Whole",
+                        "ru": "Утка по-пекински (целая)",
+                        "am": "Պեկինյան բադ (ամբողջական)"
+                    },
+                    "description": null,
+                    "price": 19690,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Sashimi",
+                "ru": "Сашими",
+                "am": "Սաշիմի"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Eel Sashimi",
+                        "ru": "Сашими с угрем",
+                        "am": "Սաշիմի օձաձկով"
+                    },
+                    "description": null,
+                    "price": 3960,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Salmon Sashimi",
+                        "ru": "Сашими с лососем",
+                        "am": "Սաշիմի սաղմոնով"
+                    },
+                    "description": null,
+                    "price": 3960,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Shrimp Sashimi",
+                        "ru": "Сашими с креветкой",
+                        "am": "Սաշիմի ծովախեցգետնով"
+                    },
+                    "description": null,
+                    "price": 3520,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Nigiri",
+                "ru": "Нигири",
+                "am": "Նիգիրի"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Scallop Nigiri",
+                        "ru": "Нигири с гребешком",
+                        "am": "Նիգիրի սանրիկով"
+                    },
+                    "description": null,
+                    "price": 5390,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Eel Nigiri",
+                        "ru": "Нигири с угрем",
+                        "am": "Նիգիրի օձաձկով"
+                    },
+                    "description": null,
+                    "price": 3960,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Salmon Nigiri",
+                        "ru": "Нигири с лососем",
+                        "am": "Նիգիրի սաղմոնով"
+                    },
+                    "description": null,
+                    "price": 3960,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Shrimp Nigiri",
+                        "ru": "Нигири с креветкой",
+                        "am": "Նիգիրի ծովախեցգետնով"
+                    },
+                    "description": null,
+                    "price": 3410,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Rolls",
+                "ru": "Роллы",
+                "am": "Ռոլլեր"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Osaka Roll",
+                        "ru": "Осака ролл",
+                        "am": "Օսակա ռոլլ"
+                    },
+                    "description": null,
+                    "price": 6490,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Sendai Roll",
+                        "ru": "Сендай ролл",
+                        "am": "Սենդայ ռոլլ"
+                    },
+                    "description": null,
+                    "price": 6490,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Gold Dragon Roll",
+                        "ru": "Ролл Золотой дракон",
+                        "am": "Ոսկե վիշապ ռոլլ"
+                    },
+                    "description": null,
+                    "price": 6490,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Scallop Tartare Roll",
+                        "ru": "Ролл с тартаром из гребешка",
+                        "am": "Սանրիկի տարտարով ռոլլ"
+                    },
+                    "description": null,
+                    "price": 6490,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Alaska Roll",
+                        "ru": "Аляска ролл",
+                        "am": "Ալյասկա ռոլլ"
+                    },
+                    "description": null,
+                    "price": 6490,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Classic Philadelphia Roll",
+                        "ru": "Классический ролл Филадельфия",
+                        "am": "Դասական Ֆիլադելֆիա ռոլլ"
+                    },
+                    "description": null,
+                    "price": 5060,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Green Dragon Roll",
+                        "ru": "Ролл Зеленый дракон",
+                        "am": "Կանաչ վիշապ ռոլլ"
+                    },
+                    "description": null,
+                    "price": 4620,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "California Roll",
+                        "ru": "Калифорния ролл",
+                        "am": "Կալիֆորնիա ռոլլ"
+                    },
+                    "description": null,
+                    "price": 4620,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Chef's Combos",
+                "ru": "Комбо от шефа",
+                "am": "Շեֆի կոմբոներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Mao's Big Garden",
+                        "ru": "Большой сад Мао",
+                        "am": "Մաոյի մեծ այգի"
+                    },
+                    "description": null,
+                    "price": 39600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mao's Small Garden",
+                        "ru": "Маленький сад Мао",
+                        "am": "Մաոյի փոքր այգի"
+                    },
+                    "description": null,
+                    "price": 19800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mao's Big Sashimi Set",
+                        "ru": "Большой сет сашими Мао",
+                        "am": "Մաոյի սաշիմի մեծ հավաքածու"
+                    },
+                    "description": null,
+                    "price": 13200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Mao's Small Sashimi Set",
+                        "ru": "Маленький сет сашими Мао",
+                        "am": "Մաոյի սաշիմի փոքր հավաքածու"
+                    },
+                    "description": null,
+                    "price": 8690,
+                    "currency": "AMD"
+                }
+            ]
+        }
+    ]
+}

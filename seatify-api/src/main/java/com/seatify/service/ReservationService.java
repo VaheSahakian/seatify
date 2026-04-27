@@ -28,6 +28,7 @@ public class ReservationService {
     private final MenuItemRepository menuItemRepository;
     private final UserRepository userRepository;
     private final PaymentService paymentService;
+    private final LoyaltyService loyaltyService;
 
     @Transactional
     public ReservationResponse create(UUID userId, CreateReservationRequest request) {
@@ -109,6 +110,9 @@ public class ReservationService {
         }
         reservation.getPreOrderItems().addAll(preOrderItems);
         reservation = reservationRepository.save(reservation);
+
+        // Award loyalty points for reservation
+        loyaltyService.awardPoints(user, 50, "reservation", "Reservation at " + venue.getName(), reservation.getId());
 
         return ReservationResponse.from(reservation);
     }

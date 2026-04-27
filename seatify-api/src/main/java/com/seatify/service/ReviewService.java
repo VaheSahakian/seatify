@@ -27,6 +27,7 @@ public class ReviewService {
     private final ReviewRepository reviewRepository;
     private final VenueRepository venueRepository;
     private final UserRepository userRepository;
+    private final LoyaltyService loyaltyService;
 
     @Transactional(readOnly = true)
     public Page<ReviewResponse> listByVenue(String venueId, int page, int size) {
@@ -60,6 +61,9 @@ public class ReviewService {
 
         // Update venue rating and review count
         updateVenueRating(venue);
+
+        // Award loyalty points for review
+        loyaltyService.awardPoints(user, 20, "review", "Review for " + venue.getName(), null);
 
         return ReviewResponse.from(review);
     }

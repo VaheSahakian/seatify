@@ -30,6 +30,14 @@ public class VenueController {
         return ResponseEntity.ok(venueService.listVenues());
     }
 
+    @GetMapping("/search")
+    public ResponseEntity<List<VenueListResponse>> searchVenues(@RequestParam(required = false) String dish) {
+        if (dish != null && !dish.isBlank()) {
+            return ResponseEntity.ok(venueService.searchByDish(dish));
+        }
+        return ResponseEntity.ok(venueService.listVenues());
+    }
+
     @GetMapping("/{slug}")
     public ResponseEntity<VenueDetailResponse> getVenue(@PathVariable String slug) {
         return ResponseEntity.ok(venueService.getVenueBySlug(slug));

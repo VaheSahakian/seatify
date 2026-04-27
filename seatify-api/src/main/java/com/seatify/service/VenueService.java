@@ -8,6 +8,7 @@ import com.seatify.model.entity.FloorTable;
 import com.seatify.model.entity.Reservation;
 import com.seatify.model.entity.Venue;
 import com.seatify.repository.FloorTableRepository;
+import com.seatify.repository.MenuItemRepository;
 import com.seatify.repository.ReservationRepository;
 import com.seatify.repository.VenueRepository;
 import lombok.RequiredArgsConstructor;
@@ -26,10 +27,18 @@ public class VenueService {
     private final VenueRepository venueRepository;
     private final FloorTableRepository floorTableRepository;
     private final ReservationRepository reservationRepository;
+    private final MenuItemRepository menuItemRepository;
 
     @Transactional(readOnly = true)
     public List<VenueListResponse> listVenues() {
         return venueRepository.findAll().stream()
+                .map(VenueListResponse::from)
+                .toList();
+    }
+
+    @Transactional(readOnly = true)
+    public List<VenueListResponse> searchByDish(String query) {
+        return menuItemRepository.findVenuesByDishName(query).stream()
                 .map(VenueListResponse::from)
                 .toList();
     }

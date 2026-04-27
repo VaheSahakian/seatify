@@ -1,0 +1,492 @@
+{
+    "restaurant": {
+        "name": "Mozzarella"
+    },
+    "menu": [
+        {
+            "category": {
+                "en": "Pizza Neapolitan",
+                "ru": "Пицца Неаполитанская",
+                "am": "Պիցցա Նեապոլիտանական"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Signature pizza with meat",
+                        "ru": "Фирменная пицца с мясом",
+                        "am": "Ֆիրմային պիցցա մսով"
+                    },
+                    "description": null,
+                    "price": 4500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza with prosciutto and arugula",
+                        "ru": "Пицца с прошутто и рукколой",
+                        "am": "Պիցցա պրոշուտոյով և ռուկոլայով"
+                    },
+                    "description": null,
+                    "price": 4800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza with salmon",
+                        "ru": "Пицца с лососем",
+                        "am": "Պիցցա սաղմոնով"
+                    },
+                    "description": null,
+                    "price": 4500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza Maria",
+                        "ru": "Пицца Мария",
+                        "am": "Պիցցա Մարիա"
+                    },
+                    "description": null,
+                    "price": 4500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Burrata Pesto / Burrata Bomb",
+                        "ru": "Буррата Песто / Буррата Бомб",
+                        "am": "Բուրատա Պեստո / Բուրատա Բոմբ"
+                    },
+                    "description": null,
+                    "price": 5500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza Pepperoni / Pizza Neapolitan",
+                        "ru": "Пицца Пепперони / Пицца Неаполитанская",
+                        "am": "Պիցցա Պեպերոնի / Պիցցա Նեապոլիտանական"
+                    },
+                    "description": null,
+                    "price": 4200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza with bacon and mascarpone",
+                        "ru": "Пицца с беконом и маскарпоне",
+                        "am": "Պիցցա բեկոնով և մասկարպոնեով"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "This is not four cheese",
+                        "ru": "Это не четыре сыра",
+                        "am": "Սա չորս պանիր չէ"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza Capricciosa",
+                        "ru": "Пицца Капричоза",
+                        "am": "Պիցցա Կապրիչիոզա"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza with chicken and mushrooms",
+                        "ru": "Пицца с курицей и грибами",
+                        "am": "Պիցցա հավով և սնկով"
+                    },
+                    "description": null,
+                    "price": 3600,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Calzone (Pepperoni or Bolognese)",
+                        "ru": "Кальцоне (Пепперони или Болоньезе)",
+                        "am": "Կալցոնե (Պեպերոնի կամ Բոլոնյեզե)"
+                    },
+                    "description": null,
+                    "price": 3300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pizza Margherita / Sweet pizza",
+                        "ru": "Пицца Маргарита / Сладкая пицца",
+                        "am": "Պիցցա Մարգարիտա / Քաղցր պիցցա"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Pasta & Risotto",
+                "ru": "Паста и Ризотто",
+                "am": "Պաստա և Ռիզոտո"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Tagliatelle (Shrimp or Salmon)",
+                        "ru": "Тальятелле (с креветками или лососем)",
+                        "am": "Տալյատելե (ծովախեցգետնով կամ սաղմոնով)"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tagliatelle Bolognese / Conchiglie Bolognese",
+                        "ru": "Тальятелле Болоньезе / Конкилье Болоньезе",
+                        "am": "Տալյատելե Բոլոնյեզե / Կոնկիլյե Բոլոնյեզե"
+                    },
+                    "description": null,
+                    "price": 3700,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pasta Four cheese",
+                        "ru": "Паста Четыре сыра",
+                        "am": "Պաստա Չորս պանիր"
+                    },
+                    "description": null,
+                    "price": 3300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Pasta Carbonara / Lasagna",
+                        "ru": "Паста Карбонара / Лазанья",
+                        "am": "Պաստա Կարբոնարա / Լազանյա"
+                    },
+                    "description": null,
+                    "price": 3200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Risotto (Shrimps or Marbled Beef)",
+                        "ru": "Ризотто (с креветками или мраморной говядиной)",
+                        "am": "Ռիզոտո (ծովախեցգետնով կամ մարմարյա տավարի մսով)"
+                    },
+                    "description": null,
+                    "price": 3200,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Alfredo / Ravioli with eggplant",
+                        "ru": "Альфредо / Равиоли с баклажаном",
+                        "am": "Ալֆրեդո / Ռավիոլի սմբուկով"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Arrabiata",
+                        "ru": "Аррабиата",
+                        "am": "Արաբիատա"
+                    },
+                    "description": null,
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Gnocchi Four cheeses",
+                        "ru": "Ньокки Четыре сыра",
+                        "am": "Նյոկի Չորս պանիր"
+                    },
+                    "description": null,
+                    "price": 2200,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Main Dishes & Paninis",
+                "ru": "Основные блюда и Панини",
+                "am": "Հիմնական ուտեստներ և Պանինի"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Trout with warm green salad",
+                        "ru": "Форель с теплым зеленым салатом",
+                        "am": "Իշխան տաք կանաչ աղցանով"
+                    },
+                    "description": null,
+                    "price": 4900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Veal tenderloin with mashed potatoes",
+                        "ru": "Телячья вырезка с картофельным пюре",
+                        "am": "Հորթի փափկամիս կարտոֆիլի պյուրեով"
+                    },
+                    "description": null,
+                    "price": 4900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled ribs with French fries",
+                        "ru": "Ребрышки на гриле с картофелем фри",
+                        "am": "Գրիլ արված կողիկներ կարտոֆիլ ֆրիով"
+                    },
+                    "description": null,
+                    "price": 4800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Shrimp from the oven",
+                        "ru": "Креветки из печи",
+                        "am": "Ծովախեցգետին ջեռոցից"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Chicken schnitzel with fried potatoes",
+                        "ru": "Куриный шницель с жареным картофелем",
+                        "am": "Հավի շնիցել տապակած կարտոֆիլով"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Panini with prosciutto",
+                        "ru": "Панини с прошутто",
+                        "am": "Պանինի պրոշուտոյով"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Panini with roast beef",
+                        "ru": "Панини с ростбифом",
+                        "am": "Պանինի ռոստբիֆով"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Grilled Vegetables",
+                        "ru": "Овощи на гриле",
+                        "am": "Գրիլ արված բանջարեղեն"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Salads & Appetizers",
+                "ru": "Салаты и Закуски",
+                "am": "Աղցաններ և Նախուտեստներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Burrata with tomatoes",
+                        "ru": "Буррата с помидорами",
+                        "am": "Բուրատա լոլիկով"
+                    },
+                    "description": null,
+                    "price": 4900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Roast beef salad / Salad with salmon",
+                        "ru": "Салат с ростбифом / Салат с лососем",
+                        "am": "Աղցան ռոստբիֆով / Աղցան սաղմոնով"
+                    },
+                    "description": null,
+                    "price": 3900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Salad with shrimps, arugula, and vegetables",
+                        "ru": "Салат с креветками, рукколой и овощами",
+                        "am": "Աղցան ծովախեցգետնով, ռուկոլայով և բանջարեղենով"
+                    },
+                    "description": null,
+                    "price": 3800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Caesar (Shrimp)",
+                        "ru": "Цезарь (с креветками)",
+                        "am": "Կեսար (ծովախեցգետնով)"
+                    },
+                    "description": null,
+                    "price": 3500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Caesar (Chicken)",
+                        "ru": "Цезарь (с курицей)",
+                        "am": "Կեսար (հավով)"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Ruby pear / Panzanella with spicy feta",
+                        "ru": "Рубиновая груша / Панцанелла с острым сыром фета",
+                        "am": "Ռուբինե տանձ / Պանցանելա կծու ֆետա պանրով"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Salad Gianna (Goat cheese & tangerine)",
+                        "ru": "Салат Джанна (козий сыр и мандарин)",
+                        "am": "Աղցան Ջաննա (այծի պանիր և մանդարին)"
+                    },
+                    "description": null,
+                    "price": 2800,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Bruschetta with prosciutto / Bombolone",
+                        "ru": "Брускетта с прошутто / Бомболоне",
+                        "am": "Բրուսկետա պրոշուտոյով / Բոմբոլոնե"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Antipasto",
+                        "ru": "Антипасто",
+                        "am": "Անտիպաստո"
+                    },
+                    "description": null,
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Croquettes with chicken / Grilled eggplant",
+                        "ru": "Крокеты с курицей / Баклажан на гриле",
+                        "am": "Կրոկետներ հավով / Գրիլ արված սմբուկ"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                }
+            ]
+        },
+        {
+            "category": {
+                "en": "Desserts & Soups",
+                "ru": "Десерты и Супы",
+                "am": "Աղանդեր և Ապուրներ"
+            },
+            "items": [
+                {
+                    "name": {
+                        "en": "Viva Italy",
+                        "ru": "Вива Италия",
+                        "am": "Վիվա Իտալիա"
+                    },
+                    "description": null,
+                    "price": 2900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Brownie with nuts and ice cream",
+                        "ru": "Брауни с орехами и мороженым",
+                        "am": "Բրաունի ընկույզով և պաղպաղակով"
+                    },
+                    "description": null,
+                    "price": 2500,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tart with pecan",
+                        "ru": "Тарт с пеканом",
+                        "am": "Տարտ պեկանով"
+                    },
+                    "description": null,
+                    "price": 2300,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "San Sebastian (Seasonal fruits/berries)",
+                        "ru": "Сан-Себастьян (сезонные фрукты/ягоды)",
+                        "am": "Սան Սեբաստիան (սեզոնային մրգեր/հատապտուղներ)"
+                    },
+                    "description": null,
+                    "price": 2100,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Cream soup with lentils and roast beef",
+                        "ru": "Крем-суп из чечевицы с ростбифом",
+                        "am": "Ոսպով կրեմ-ապուր ռոստբիֆով"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                },
+                {
+                    "name": {
+                        "en": "Tartletka with mango",
+                        "ru": "Тартлетка с манго",
+                        "am": "Տարտլետկա մանգոյով"
+                    },
+                    "description": null,
+                    "price": 1900,
+                    "currency": "AMD"
+                }
+            ]
+        }
+    ]
+}

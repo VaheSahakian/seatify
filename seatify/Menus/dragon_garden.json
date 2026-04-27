@@ -1,0 +1,1225 @@
+{
+  "restaurant": {
+    "name": "Dragon Garden Byuzand"
+  },
+  "menu": [
+    {
+      "category": {
+        "en": "Lent Menu",
+        "ru": "Постное меню",
+        "am": "Պահքի մենյու"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "French fries",
+            "ru": "Картофель фри",
+            "am": "Ֆրի"
+          },
+          "description": null,
+          "price": 1200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried vegetables",
+            "ru": "Жареные овощи",
+            "am": "Տապակած բանջարեղեն"
+          },
+          "description": null,
+          "price": 3600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pig’s ears",
+            "ru": "Свиные уши",
+            "am": "Խոզի ականջներ"
+          },
+          "description": null,
+          "price": 3600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Vegetable salad in Chinese way",
+            "ru": "Овощной салат по-китайски",
+            "am": "Բանջարեղենային աղցան չինական ձևով"
+          },
+          "description": null,
+          "price": 3200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Salad with soybean sprouts",
+            "ru": "Салат из ростков сои",
+            "am": "Աղցան սոյայի ծիլերով"
+          },
+          "description": null,
+          "price": 3400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Noodles with vegetables",
+            "ru": "Лапша с овощами",
+            "am": "Լապշա բանջարեղենով"
+          },
+          "description": null,
+          "price": 3400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried oyster mushrooms with Chinese spices",
+            "ru": "Жареные вешенки с китайскими специями",
+            "am": "Տապակած կախասունկ չինական համեմունքներով"
+          },
+          "description": null,
+          "price": 3900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Kappa maki",
+            "ru": "Каппа маки",
+            "am": "Կապպա մակի"
+          },
+          "description": null,
+          "price": 1800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chuka maki",
+            "ru": "Чука маки",
+            "am": "Չուկա մակի"
+          },
+          "description": null,
+          "price": 1800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Avocado maki",
+            "ru": "Авокадо маки",
+            "am": "Ավոկադո մակի"
+          },
+          "description": null,
+          "price": 2200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chuka",
+            "ru": "Чука",
+            "am": "Չուկա"
+          },
+          "description": null,
+          "price": 2900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Cucumbers in Chinese style",
+            "ru": "Огурцы в китайском стиле",
+            "am": "Վարունգ չինական ձևով"
+          },
+          "description": null,
+          "price": 1300,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Main Dishes",
+        "ru": "Основные блюда",
+        "am": "Գլխավոր ուտեստներ"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Duck in Beijing (Peking) way",
+            "ru": "Утка по-пекински",
+            "am": "Բադ Պեկինյան ձևով"
+          },
+          "description": null,
+          "price": 27400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shrimp with teriyaki sauce",
+            "ru": "Креветки под соусом терияки",
+            "am": "Ծովախեցգետին տերիյակի սոուսով"
+          },
+          "description": null,
+          "price": 9700,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shrimp with marinated cucumber",
+            "ru": "Креветки с маринованным огурцом",
+            "am": "Ծովախեցգետին մարինացված վարունգով"
+          },
+          "description": null,
+          "price": 9600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Lamb ribs with soy sauce Dragon Garden",
+            "ru": "Бараньи ребрышки с соевым соусом Dragon Garden",
+            "am": "Գառան կողեր սոյայի սոուսով Dragon Garden"
+          },
+          "description": null,
+          "price": 9500,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Duck meat with wine",
+            "ru": "Мясо утки с вином",
+            "am": "Բադի միս գինով"
+          },
+          "description": null,
+          "price": 8900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Duck breast with lemon sauce",
+            "ru": "Утиная грудка с лимонным соусом",
+            "am": "Բադի կրծքամիս լիմոնի սոուսով"
+          },
+          "description": null,
+          "price": 8900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Crispy shrimps",
+            "ru": "Хрустящие креветки",
+            "am": "Խրթխրթան ծովախեցգետիններ"
+          },
+          "description": null,
+          "price": 8800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Duck in a pan",
+            "ru": "Утка на сковороде",
+            "am": "Բադ թավայի մեջ"
+          },
+          "description": null,
+          "price": 8700,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Octopus in Chinese style",
+            "ru": "Осьминог по-китайски",
+            "am": "Ութոտնուկ չինական ձևով"
+          },
+          "description": null,
+          "price": 8600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Duck with broccoli and champignons",
+            "ru": "Утка с брокколи и шампиньонами",
+            "am": "Բադ բրոկոլիով և շամպինիոնով"
+          },
+          "description": null,
+          "price": 8600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Duck with coriander",
+            "ru": "Утка с кориандром",
+            "am": "Բադ համեմով"
+          },
+          "description": null,
+          "price": 8400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Octopus with unagi sauce",
+            "ru": "Осьминог под соусом унаги",
+            "am": "Ութոտնուկ ունագի սոուսով"
+          },
+          "description": null,
+          "price": 7600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Turkey with mushrooms",
+            "ru": "Индейка с грибами",
+            "am": "Հնդկահավ սնկով"
+          },
+          "description": null,
+          "price": 6900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pork with shrimps in sauce on fire",
+            "ru": "Свинина с креветками в соусе на огне",
+            "am": "Խոզի միս ծովախեցգետնով սոուսի մեջ կրակի վրա"
+          },
+          "description": null,
+          "price": 6900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pork with marinated cucumber",
+            "ru": "Свинина с маринованным огурцом",
+            "am": "Խոզի միս մարինացված վարունգով"
+          },
+          "description": null,
+          "price": 6600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken with shrimps and s.a.s. sauce",
+            "ru": "Курица с креветками под соусом s.a.s.",
+            "am": "Հավի միս ծովախեցգետնով և s.a.s. սոուսով"
+          },
+          "description": null,
+          "price": 6600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken with raspberry sauce",
+            "ru": "Курица с малиновым соусом",
+            "am": "Հավի միս մալինայի սոուսով"
+          },
+          "description": null,
+          "price": 6300,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pork gum bao",
+            "ru": "Свинина гум бао",
+            "am": "Խոզի միս գում բաո"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pork in a pan",
+            "ru": "Свинина на сковороде",
+            "am": "Խոզի միս թավայի մեջ"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pork with green onions in pan",
+            "ru": "Свинина с зеленым луком на сковороде",
+            "am": "Խոզի միս կանաչ սոխով թավայի մեջ"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken cashew",
+            "ru": "Курица кешью",
+            "am": "Հավ կեշյուով"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken with broccoli",
+            "ru": "Курица с брокколи",
+            "am": "Հավ բրոկոլիով"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shrimp with coriander and peanuts",
+            "ru": "Креветки с кориандром и арахисом",
+            "am": "Ծովախեցգետին համեմով և գետնանուշով"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pork with vegetables",
+            "ru": "Свинина с овощами",
+            "am": "Խոզի միս բանջարեղենով"
+          },
+          "description": null,
+          "price": 5800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Spicy chicken",
+            "ru": "Острая курица",
+            "am": "Կծու հավ"
+          },
+          "description": null,
+          "price": 5800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken in a pan",
+            "ru": "Курица на сковороде",
+            "am": "Հավ թավայի մեջ"
+          },
+          "description": null,
+          "price": 5700,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken with orange in sweet and sour sauce",
+            "ru": "Курица с апельсином в кисло-сладком соусе",
+            "am": "Հավ նարնջով թթվաքաղցր սոուսի մեջ"
+          },
+          "description": null,
+          "price": 5600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Gunbao",
+            "ru": "Гунбао",
+            "am": "Գունբաո"
+          },
+          "description": null,
+          "price": 5600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken with pineapple in sweet and sour sauce",
+            "ru": "Курица с ананасом в кисло-сладком соусе",
+            "am": "Հավ անանասով թթվաքաղցր սոուսի մեջ"
+          },
+          "description": null,
+          "price": 5600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chinese style squid rings",
+            "ru": "Кольца кальмара по-китайски",
+            "am": "Կալմարի օղակներ չինական ձևով"
+          },
+          "description": null,
+          "price": 5600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken in sweet and sour sauce",
+            "ru": "Курица в кисло-сладком соусе",
+            "am": "Հավ թթվաքաղցր սոուսի մեջ"
+          },
+          "description": null,
+          "price": 5400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken with vegetables",
+            "ru": "Курица с овощами",
+            "am": "Հավ բանջարեղենով"
+          },
+          "description": null,
+          "price": 5400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken casserole with broccoli",
+            "ru": "Куриная запеканка с брокколи",
+            "am": "Հավի մսով կասերոլ բրոկոլիով"
+          },
+          "description": null,
+          "price": 5300,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shongo Pai",
+            "ru": "Шонго Пай",
+            "am": "Շոնգո Պայ"
+          },
+          "description": null,
+          "price": 5200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Crispy chicken",
+            "ru": "Хрустящая курица",
+            "am": "Խրթխրթան հավ"
+          },
+          "description": null,
+          "price": 4800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chinese style pork tenderloin",
+            "ru": "Свиная вырезка по-китайски",
+            "am": "Խոզի փափկամիս չինական ձևով"
+          },
+          "description": null,
+          "price": 4800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried eggplant with pork / chicken",
+            "ru": "Жареные баклажаны со свининой / курицей",
+            "am": "Տապակած սմբուկ խոզի / հավի մսով"
+          },
+          "description": null,
+          "price": 4600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Pork with chips",
+            "ru": "Свинина с чипсами",
+            "am": "Խոզի միս չիպսերով"
+          },
+          "description": null,
+          "price": 4200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Mussels in spicy sauce",
+            "ru": "Мидии в остром соусе",
+            "am": "Միդիաներ կծու սոուսով"
+          },
+          "description": null,
+          "price": 3900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chinese style chicken wings",
+            "ru": "Куриные крылышки по-китайски",
+            "am": "Հավի թևիկներ չինական ձևով"
+          },
+          "description": null,
+          "price": 3900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chinese style fried vegetables",
+            "ru": "Жареные овощи по-китайски",
+            "am": "Տապակած բանջարեղեն չինական ձևով"
+          },
+          "description": null,
+          "price": 3700,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fish Son-Shu",
+            "ru": "Рыба Сон-Шу",
+            "am": "Ձուկ Սոն-Շու"
+          },
+          "description": null,
+          "price": 13400,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Veal Dishes",
+        "ru": "Блюда из телятины",
+        "am": "Հորթի մսով ուտեստներ"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Spicy veal",
+            "ru": "Острая телятина",
+            "am": "Կծու հորթի միս"
+          },
+          "description": null,
+          "price": 7900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Veal with oyster sauce",
+            "ru": "Телятина под устричным соусом",
+            "am": "Հորթի միս ոստրեի սոուսով"
+          },
+          "description": null,
+          "price": 7600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Veal with s.s.s. sauce",
+            "ru": "Телятина с соусом s.s.s.",
+            "am": "Հորթի միս s.s.s. սոուսով"
+          },
+          "description": null,
+          "price": 7400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Veal with vegetables",
+            "ru": "Телятина с овощами",
+            "am": "Հորթի միս բանջարեղենով"
+          },
+          "description": null,
+          "price": 7400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Veal with coriander",
+            "ru": "Телятина с кориандром",
+            "am": "Հորթի միս համեմով"
+          },
+          "description": null,
+          "price": 7200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Veal on a pan",
+            "ru": "Телятина на сковороде",
+            "am": "Հորթի միս թավայի մեջ"
+          },
+          "description": null,
+          "price": 7100,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Veal with broccoli",
+            "ru": "Телятина с брокколи",
+            "am": "Հորթի միս բրոկոլիով"
+          },
+          "description": null,
+          "price": 6900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Veal with black mushrooms on a pan",
+            "ru": "Телятина с черными грибами на сковороде",
+            "am": "Հորթի միս սև սնկով թավայի մեջ"
+          },
+          "description": null,
+          "price": 6800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Kyang-so",
+            "ru": "Кянг-со",
+            "am": "Կյանգ-սո"
+          },
+          "description": null,
+          "price": 6400,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Ostrich Dishes",
+        "ru": "Блюда из страуса",
+        "am": "Ջայլամի մսով ուտեստներ"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Ostrich meat with coriander",
+            "ru": "Мясо страуса с кориандром",
+            "am": "Ջայլամի միս համեմով"
+          },
+          "description": null,
+          "price": 9600,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Seafood",
+        "ru": "Морепродукты",
+        "am": "Ծովամթերք"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Cashew shrimp",
+            "ru": "Креветки с кешью",
+            "am": "Ծովախեցգետին կեշյուով"
+          },
+          "description": null,
+          "price": 9900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shrimps in shell on pan",
+            "ru": "Креветки в панцире на сковороде",
+            "am": "Ծովախեցգետին զրահով թավայի մեջ"
+          },
+          "description": null,
+          "price": 9800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shrimps in spicy sauce on fire",
+            "ru": "Креветки в остром соусе на огне",
+            "am": "Ծովախեցգետին կծու սոուսով կրակի վրա"
+          },
+          "description": null,
+          "price": 8600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Octopus in a pan",
+            "ru": "Осьминог на сковороде",
+            "am": "Ութոտնուկ թավայի մեջ"
+          },
+          "description": null,
+          "price": 8400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Frog legs in Chinese style",
+            "ru": "Лягушачьи лапки по-китайски",
+            "am": "Գորտի թաթիկներ չինական ձևով"
+          },
+          "description": null,
+          "price": 8900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shrimp Con Xia",
+            "ru": "Креветки Кон Ся",
+            "am": "Ծովախեցգետին Կոն Սյա"
+          },
+          "description": null,
+          "price": 6600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Shrimp ghadeif",
+            "ru": "Креветки кадайф",
+            "am": "Ծովախեցգետին կադաիֆ"
+          },
+          "description": null,
+          "price": 4600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Crispy trout",
+            "ru": "Хрустящая форель",
+            "am": "Խրթխրթան իշխան"
+          },
+          "description": null,
+          "price": 4600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried sig",
+            "ru": "Жареный сиг",
+            "am": "Տապակած սիգ"
+          },
+          "description": null,
+          "price": 3900,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Pasta & Noodles",
+        "ru": "Паста и лапша",
+        "am": "Պաստա և լապշա"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Newro with veal",
+            "ru": "Невро с телятиной",
+            "am": "Նևրո հորթի մսով"
+          },
+          "description": null,
+          "price": 5600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Noodles with shrimps",
+            "ru": "Лапша с креветками",
+            "am": "Լապշա ծովախեցգետնով"
+          },
+          "description": null,
+          "price": 4600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Noodles with veal",
+            "ru": "Лапша с телятиной",
+            "am": "Լապշա հորթի մսով"
+          },
+          "description": null,
+          "price": 4300,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Mu Kai Udon noodles",
+            "ru": "Лапша Му Кай Удон",
+            "am": "Լապշա Մու Կայ Ուդոն"
+          },
+          "description": null,
+          "price": 4300,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Noodles with chicken",
+            "ru": "Лапша с курицей",
+            "am": "Լապշա հավով"
+          },
+          "description": null,
+          "price": 3800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Noodles (Plain)",
+            "ru": "Лапша (простая)",
+            "am": "Լապշա (առանց հավելումների)"
+          },
+          "description": null,
+          "price": 1400,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Rice Dishes",
+        "ru": "Блюда из риса",
+        "am": "Բրնձով ուտեստներ"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Fried rice with veal",
+            "ru": "Жареный рис с телятиной",
+            "am": "Տապակած բրինձ հորթի մսով"
+          },
+          "description": null,
+          "price": 3800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried rice with shrimps",
+            "ru": "Жареный рис с креветками",
+            "am": "Տապակած բրինձ ծովախեցգետնով"
+          },
+          "description": null,
+          "price": 3600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried rice with chicken",
+            "ru": "Жареный рис с курицей",
+            "am": "Տապակած բրինձ հավով"
+          },
+          "description": null,
+          "price": 2800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Yang-Zhu fried rice (veg & egg)",
+            "ru": "Жареный рис Ян-Чժу (овощи и яйцо)",
+            "am": "Յան-Չժու տապակած բրինձ (բանջարեղեն և ձու)"
+          },
+          "description": null,
+          "price": 2400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Rice (Plain)",
+            "ru": "Рис (простой)",
+            "am": "Բրինձ (առանց հավելումների)"
+          },
+          "description": null,
+          "price": 1200,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Soups",
+        "ru": "Супы",
+        "am": "Ապուրներ"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Dragon soup",
+            "ru": "Суп Дракон",
+            "am": "Դրակոն ապուր"
+          },
+          "description": null,
+          "price": 5800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Tom Yum with seafood",
+            "ru": "Том Ям с морепродуктами",
+            "am": "Տոմ Յամ ծովամթերքով"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Tom Yum",
+            "ru": "Том Ям",
+            "am": "Տոմ Յամ"
+          },
+          "description": null,
+          "price": 4400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Ramen",
+            "ru": "Рамен",
+            "am": "Ռամեն"
+          },
+          "description": null,
+          "price": 2900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Sour spicy soup",
+            "ru": "Кисло-острый суп",
+            "am": "Թթվակծու ապուր"
+          },
+          "description": null,
+          "price": 2600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Egg soup with veal",
+            "ru": "Яичный суп с телятиной",
+            "am": "Ձվով ապուր հորթի մսով"
+          },
+          "description": null,
+          "price": 2600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chinese soup",
+            "ru": "Китайский суп",
+            "am": "Չինական ապուր"
+          },
+          "description": null,
+          "price": 2400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Spicy chicken soup",
+            "ru": "Острый куриный суп",
+            "am": "Կծու հավով ապուր"
+          },
+          "description": null,
+          "price": 2400,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Spicy mushroom soup",
+            "ru": "Острый грибной суп",
+            "am": "Կծու սնկով ապուր"
+          },
+          "description": null,
+          "price": 2300,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Salads",
+        "ru": "Салаты",
+        "am": "Աղցաններ"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Gato sake",
+            "ru": "Гато саке",
+            "am": "Գատո սակե"
+          },
+          "description": null,
+          "price": 5900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Midori Sara",
+            "ru": "Мидори Сара",
+            "am": "Միդորի Սառա"
+          },
+          "description": null,
+          "price": 3900,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fen-se",
+            "ru": "Фен-се",
+            "am": "Ֆեն-սե"
+          },
+          "description": null,
+          "price": 3600,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Desserts",
+        "ru": "Десерты",
+        "am": "Աղանդեր"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Black orchid",
+            "ru": "Черная орхидея",
+            "am": "Սև օրխիդեա"
+          },
+          "description": null,
+          "price": 4600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried apples in caramel",
+            "ru": "Жареные яблоки в карамели",
+            "am": "Տապակած խնձոր կարամելի մեջ"
+          },
+          "description": null,
+          "price": 4300,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "White orchid",
+            "ru": "Белая орхидея",
+            "am": "Սպիտակ օրխիդեա"
+          },
+          "description": null,
+          "price": 4200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fried ice cream",
+            "ru": "Жареное мороженое",
+            "am": "Տապակած պաղպաղակ"
+          },
+          "description": null,
+          "price": 1700,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Bao & Bread",
+        "ru": "Бао и Хлеб",
+        "am": "Բաո և Հաց"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Shrimp Bao",
+            "ru": "Бао с креветками",
+            "am": "Ծովախեցգետնով Բաո"
+          },
+          "description": null,
+          "price": 3300,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Beef Bao",
+            "ru": "Бао с говядиной",
+            "am": "Տավարի մսով Բաո"
+          },
+          "description": null,
+          "price": 3100,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chicken Bao",
+            "ru": "Бао с курицей",
+            "am": "Հավի մսով Բաո"
+          },
+          "description": null,
+          "price": 2800,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Chinese bread / Bread basket",
+            "ru": "Китайский хлеб / Хлебная корзина",
+            "am": "Չինական հաց / Հացի զամբյուղ"
+          },
+          "description": null,
+          "price": 900,
+          "currency": "AMD"
+        }
+      ]
+    },
+    {
+      "category": {
+        "en": "Drinks",
+        "ru": "Напитки",
+        "am": "Ըմպելիքներ"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Pomegranate juice (250ml)",
+            "ru": "Гранатовый сок (250мл)",
+            "am": "Նռան հյութ (250մլ)"
+          },
+          "description": null,
+          "price": 5500,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Fresh juices (Apple/Orange/Grapefruit)",
+            "ru": "Свежевыжатые соки (Яблоко/Апельсин/Грейпфрут)",
+            "am": "Թարմ հյութեր (Խնձոր/Նարինջ/Թուրինջ)"
+          },
+          "description": null,
+          "price": 2200,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Lemonades (various 500ml)",
+            "ru": "Лимонады (разные 500мл)",
+            "am": "Լիմոնադներ (տարբեր 500մլ)"
+          },
+          "description": null,
+          "price": 1700,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Sodas (Coke/Fanta/Sprite 0.5l)",
+            "ru": "Газировки (Кола/Фанта/Спрайт 0.5л)",
+            "am": "Զովացուցիչ ըմպելիքներ (Կոկա-Կոլա/Ֆանտա/Սպրայտ 0.5լ)"
+          },
+          "description": null,
+          "price": 500,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Water (Byuregh/Jermuk 0.5l)",
+            "ru": "Вода (Бюрег/Джермук 0.5л)",
+            "am": "Ջուր (Բյուրեղ/Ջերմուկ 0.5լ)"
+          },
+          "description": null,
+          "price": 300,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Beer (Dargett 0.33l)",
+            "ru": "Пиво (Даргетт 0.33л)",
+            "am": "Գարեջուր (Դարգետ 0.33լ)"
+          },
+          "description": null,
+          "price": 1600,
+          "currency": "AMD"
+        },
+        {
+          "name": {
+            "en": "Wine (Red Dragon 0.75l)",
+            "ru": "Вино (Красный Дракон 0.75л)",
+            "am": "Գինի (Կարմիր Դրակոն 0.75լ)"
+          },
+          "description": null,
+          "price": 9000,
+          "currency": "AMD"
+        }
+      ]
+    }
+  ]
+}

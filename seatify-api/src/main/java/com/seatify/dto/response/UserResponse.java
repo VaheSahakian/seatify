@@ -15,6 +15,7 @@ public class UserResponse {
     private String phone;
     private String avatar;
     private Integer loyaltyPoints;
+    private String loyaltyTier;
     private BigDecimal cashback;
     private String language;
 
@@ -26,6 +27,7 @@ public class UserResponse {
                 .phone(user.getPhone())
                 .avatar(user.getAvatar())
                 .loyaltyPoints(user.getLoyaltyPoints())
+                .loyaltyTier(user.getLoyaltyTier())
                 .cashback(user.getCashback())
                 .language(user.getLanguage())
                 .build();
