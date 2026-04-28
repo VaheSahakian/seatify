@@ -66,6 +66,13 @@ export async function apiFetch<T>(
     }
   }
 
+  if (res.status === 401 && !path.startsWith('/api/auth/')) {
+    // Prompt the user to log in (the auth endpoints handle their own errors).
+    import('@/store/loginPromptStore').then((m) => {
+      m.useLoginPrompt.getState().open()
+    })
+  }
+
   if (!res.ok) {
     const error = await res.json().catch(() => ({ message: res.statusText }))
     throw new Error(error.message || `API error: ${res.status}`)

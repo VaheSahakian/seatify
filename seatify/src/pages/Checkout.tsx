@@ -1,12 +1,22 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft, CalendarDays, Clock, Users, CreditCard, Banknote, Smartphone, Wallet } from 'lucide-react'
+import { ArrowLeft, CalendarDays, Clock, Users, Banknote } from 'lucide-react'
+import {
+  VisaLogo,
+  MastercardLogo,
+  ApplePayLogo,
+  GooglePayLogo,
+  IdramLogo,
+  TelcellLogo,
+} from '@/components/checkout/PaymentIcons'
 import { motion, AnimatePresence } from 'framer-motion'
 import QRCode from 'react-qr-code'
 import { Button } from '@/components/ui/button'
 import { useReservationStore } from '@/store/reservationStore'
 import { useCartStore } from '@/store/cartStore'
+import { useAuthStore } from '@/store/authStore'
+import { useLoginPrompt } from '@/store/loginPromptStore'
 import { formatPrice } from '@/lib/utils'
 import { cn } from '@/lib/utils'
 import { toast } from 'sonner'
@@ -19,6 +29,8 @@ export default function Checkout() {
   const lang = i18n.language
   const { currentReservation, confirmReservation } = useReservationStore()
   const { clearCart } = useCartStore()
+  const isAuthenticated = useAuthStore((s) => s.isAuthenticated)
+  const openLoginPrompt = useLoginPrompt((s) => s.open)
   const [paymentMethod, setPaymentMethod] = useState<string>('card')
   const [confirmed, setConfirmed] = useState<Reservation | null>(null)
   const [loading, setLoading] = useState(false)
@@ -35,6 +47,10 @@ export default function Checkout() {
   }
 
   const handleConfirm = async () => {
+    if (!isAuthenticated) {
+      openLoginPrompt(() => handleConfirm())
+      return
+    }
     setLoading(true)
     try {
       const reservation = await confirmReservation(paymentMethod)
@@ -194,13 +210,26 @@ export default function Checkout() {
           <h2 className="font-semibold mb-3">{t('checkout.payment_method')}</h2>
           <div className="space-y-2">
             {[
-              { id: 'card', label: 'Credit / Debit Card', icon: CreditCard },
-              { id: 'apple_pay', label: 'Apple Pay', icon: Smartphone, logo: '🍎' },
-              { id: 'google_pay', label: 'Google Pay', icon: Wallet, logo: '🔵' },
-              { id: 'idram', label: 'Idram', icon: Smartphone, logo: '💜' },
-              { id: 'telcell', label: 'Telcell Wallet', icon: Smartphone, logo: '🟠' },
-              { id: 'cash', label: 'Cash on Arrival', icon: Banknote },
-            ].map(({ id, label, icon: Icon, logo }) => (
+              {
+                id: 'card',
+                label: t('checkout.card'),
+                logos: (
+                  <div className="flex items-center gap-1.5">
+                    <VisaLogo />
+                    <MastercardLogo />
+                  </div>
+                ),
+              },
+              { id: 'apple_pay', label: 'Apple Pay', logos: <ApplePayLogo /> },
+              { id: 'google_pay', label: 'Google Pay', logos: <GooglePayLogo /> },
+              { id: 'idram', label: 'Idram', logos: <IdramLogo /> },
+              { id: 'telcell', label: 'Telcell Wallet', logos: <TelcellLogo /> },
+              {
+                id: 'cash',
+                label: t('checkout.cash'),
+                logos: <Banknote size={22} className="text-text-secondary" />,
+              },
+            ].map(({ id, label, logos }) => (
               <button
                 key={id}
                 onClick={() => setPaymentMethod(id)}
@@ -211,11 +240,9 @@ export default function Checkout() {
                     : 'border-border hover:border-text-secondary'
                 )}
               >
-                {logo ? (
-                  <span className="text-xl w-5 text-center">{logo}</span>
-                ) : (
-                  <Icon size={20} className={paymentMethod === id ? 'text-primary' : 'text-text-secondary'} />
-                )}
+                <div className="flex items-center justify-center min-w-[60px]">
+                  {logos}
+                </div>
                 <span className="text-sm font-medium">{label}</span>
               </button>
             ))}

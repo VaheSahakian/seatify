@@ -3,6 +3,7 @@ import { Navbar } from './Navbar'
 import { BottomNav } from './BottomNav'
 import { Toaster } from 'sonner'
 import { ChatWidget } from '@/components/common/ChatWidget'
+import { LoginDialog } from '@/components/common/LoginDialog'
 
 export function Layout() {
   return (
@@ -14,6 +15,7 @@ export function Layout() {
       <BottomNav />
       <Toaster position="top-center" richColors />
       <ChatWidget />
+      <LoginDialog />
     </div>
   )
 }
