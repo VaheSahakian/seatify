@@ -31,3 +31,7 @@ app:
     secret: c2VhdGlmeS1zZWNyZXQta2V5LWZvci1qd3QtdG9rZW4tZ2VuZXJhdGlvbi0yMDI2
     access-token-expiration: 900000    # 15 minutes
     refresh-token-expiration: 604800000 # 7 days
+  gemini:
+    api-key: ${GEMINI_API_KEY:}
+    model: ${GEMINI_MODEL:gemini-2.0-flash}
+    base-url: https://generativelanguage.googleapis.com/v1beta

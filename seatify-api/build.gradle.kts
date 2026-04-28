@@ -32,6 +32,9 @@ dependencies {
     // Jackson for JSONB
     implementation("com.fasterxml.jackson.core:jackson-databind")
 
+    // .env file loader
+    implementation("me.paulschwarz:spring-dotenv:4.0.0")
+
     // PostgreSQL
     runtimeOnly("org.postgresql:postgresql")
 

@@ -19,7 +19,7 @@ import { cn } from '@/lib/utils'
 
 const languages = [
   { code: 'en', label: 'English' },
-  { code: 'hy', label: 'Hayeren' },
+  { code: 'hy', label: 'Հայերեն' },
   { code: 'ru', label: 'Русский' },
 ] as const
 

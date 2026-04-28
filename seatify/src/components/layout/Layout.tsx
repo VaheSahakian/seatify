@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 import { Navbar } from './Navbar'
 import { BottomNav } from './BottomNav'
 import { Toaster } from 'sonner'
+import { ChatWidget } from '@/components/common/ChatWidget'
 
 export function Layout() {
   return (
@@ -12,6 +13,7 @@ export function Layout() {
       </main>
       <BottomNav />
       <Toaster position="top-center" richColors />
+      <ChatWidget />
     </div>
   )
 }

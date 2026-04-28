@@ -95,7 +95,8 @@
     "notifications": "Notifications",
     "help": "Help & Support",
     "logout": "Log out",
-    "settings": "Settings"
+    "settings": "Settings",
+    "dietary_preferences": "Dietary Preferences"
   },
   "auth": {
     "welcome": "Welcome to Seatify",
@@ -141,5 +142,30 @@
     "zoom_in": "Zoom in",
     "zoom_out": "Zoom out",
     "legend": "Legend"
+  },
+  "cuisines": {
+    "open_now": "Open Now",
+    "burgers": "Burgers",
+    "pizza": "Pizza",
+    "pasta": "Pasta",
+    "sushi": "Sushi",
+    "bbq_grill": "BBQ & Grill",
+    "seafood": "Seafood",
+    "chinese": "Chinese",
+    "armenian": "Armenian",
+    "coffee": "Coffee",
+    "bakery": "Bakery",
+    "desserts": "Desserts",
+    "breakfast": "Breakfast",
+    "fine_dining": "Fine Dining",
+    "bar": "Bar",
+    "salads": "Salads"
+  },
+  "dietary": {
+    "vegan": "Vegan",
+    "vegetarian": "Vegetarian",
+    "halal": "Halal",
+    "gluten_free": "Gluten-Free",
+    "seafood_free": "Seafood-Free"
   }
 }
