@@ -22,4 +22,5 @@ public class UpsertFloorTableRequest {
     private Short seats;
     private String label;
     private String defaultStatus;
+    private Integer rotation;
 }

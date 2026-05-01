@@ -226,6 +226,7 @@ public class AdminVenueService {
                 .seats(request.getSeats() != null ? request.getSeats() : 2)
                 .label(request.getLabel())
                 .defaultStatus(request.getDefaultStatus() != null ? TableStatus.valueOf(request.getDefaultStatus()) : TableStatus.available)
+                .rotation(request.getRotation() != null ? request.getRotation() : 0)
                 .build();
 
         return floorTableRepository.save(table);
@@ -252,6 +253,7 @@ public class AdminVenueService {
         if (request.getSeats() != null) table.setSeats(request.getSeats());
         if (request.getLabel() != null) table.setLabel(request.getLabel());
         if (request.getDefaultStatus() != null) table.setDefaultStatus(TableStatus.valueOf(request.getDefaultStatus()));
+        if (request.getRotation() != null) table.setRotation(request.getRotation());
 
         return floorTableRepository.save(table);
     }

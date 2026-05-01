@@ -52,4 +52,8 @@ public class FloorTable {
     @Column(name = "default_status", nullable = false, length = 20)
     @Builder.Default
     private TableStatus defaultStatus = TableStatus.available;
+
+    @Column(nullable = false)
+    @Builder.Default
+    private Integer rotation = 0;
 }

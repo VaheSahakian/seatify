@@ -67,6 +67,7 @@ public class VenueDetailResponse {
         private Short seats;
         private String label;
         private String status;
+        private Integer rotation;
     }
 
     @Data @Builder
@@ -133,6 +134,7 @@ public class VenueDetailResponse {
                                 .seats(t.getSeats())
                                 .label(t.getLabel())
                                 .status(t.getDefaultStatus().name())
+                                .rotation(t.getRotation() != null ? t.getRotation() : 0)
                                 .build()).toList())
                         .build())
                 .menu(venue.getMenuCategories().stream().map(mc -> MenuCategoryResponse.builder()

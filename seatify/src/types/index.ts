@@ -80,6 +80,7 @@ export interface FloorTable {
   label: string
   status: 'available' | 'occupied' | 'reserved'
   rotation?: number
+  defaultStatus?: 'available' | 'occupied' | 'reserved'
 }
 
 export interface MenuCategory {
