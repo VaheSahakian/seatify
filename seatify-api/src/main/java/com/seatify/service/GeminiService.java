@@ -42,7 +42,7 @@ public class GeminiService {
             - Be concise (3–6 sentences typical), warm, and helpful. Use light emoji sparingly.
             """;
 
-    private static final int MAX_RETRIES = 2;
+    private static final int MAX_RETRIES = 5;
 
     private final String apiKey;
     private final String model;
@@ -95,10 +95,10 @@ public class GeminiService {
                 response = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
 
                 int code = response.statusCode();
-                if (code == 503 || code == 502 || code == 504) {
+                if (code == 429 || code == 500 || code == 502 || code == 503 || code == 504) {
                     log.warn("Gemini transient {} (attempt {}/{}): {}", code, attempt + 1, MAX_RETRIES + 1, truncate(response.body(), 200));
                     if (attempt < MAX_RETRIES) {
-                        sleep(500L * (1L << attempt));
+                        sleep(backoffMs(attempt));
                         continue;
                     }
                 }
@@ -107,7 +107,7 @@ public class GeminiService {
                 lastError = e;
                 log.warn("Gemini call attempt {} failed: {}", attempt + 1, e.getMessage());
                 if (attempt < MAX_RETRIES) {
-                    sleep(500L * (1L << attempt));
+                    sleep(backoffMs(attempt));
                     continue;
                 }
             }
@@ -219,6 +219,12 @@ public class GeminiService {
     private static String truncate(String s, int max) {
         if (s == null) return "";
         return s.length() <= max ? s : s.substring(0, max);
+    }
+
+    private static long backoffMs(int attempt) {
+        long base = 500L * (1L << Math.min(attempt, 5));
+        long jitter = (long) (Math.random() * 250);
+        return Math.min(base + jitter, 8000L);
     }
 
     private static void sleep(long ms) {
